@@ -8,7 +8,7 @@
 
 let DATA = null;
 let SHARP = 1.9;
-const REPO_URL = ""; // set after publishing, e.g. https://github.com/<user>/ryder-cup-2027
+const REPO_URL = "https://github.com/carluccichristopher/ryder-cup-2027";
 const MATCH_N = 25000;
 
 /* ===================== engine (port of model/matchplay.py) ===================== */
