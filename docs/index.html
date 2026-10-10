@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ryder Cup 2027 Predictor — Adare Manor</title>
+<meta name="description" content="A self-updating Monte Carlo model predicting the 2027 Ryder Cup teams, optimal matchups and exact scorelines.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛳</text></svg>">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand">
+      <div class="brand-title">RYDER CUP <span>2027</span></div>
+      <div class="brand-sub" id="venue-line">Adare Manor, Ireland · a self-updating prediction model</div>
+    </div>
+    <div class="header-status">
+      <div class="countdown" id="countdown">—</div>
+      <div class="updated" id="updated">updated —</div>
+    </div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="overview" class="active">Overview</button>
+    <button data-tab="teams">The Teams</button>
+    <button data-tab="match">Match Lab</button>
+    <button data-tab="lineups">Lineups</button>
+    <button data-tab="about">How It Works</button>
+  </nav>
+</header>
+
+<main>
+
+<!-- ======================= OVERVIEW ======================= -->
+<section id="tab-overview" class="tab-panel active">
+  <div class="hero-cards">
+    <div class="hero-card us">
+      <div class="hero-label">USA wins the Cup</div>
+      <div class="hero-value" id="p-usa">—</div>
+      <div class="hero-sub" id="p-usa-sub"></div>
+    </div>
+    <div class="hero-card tie">
+      <div class="hero-label">14 – 14 · Europe retains</div>
+      <div class="hero-value" id="p-tie">—</div>
+      <div class="hero-sub">holders keep the trophy on a tie</div>
+    </div>
+    <div class="hero-card eu">
+      <div class="hero-label">Europe wins outright</div>
+      <div class="hero-value" id="p-eu">—</div>
+      <div class="hero-sub" id="p-eu-sub"></div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Full-Cup simulation <span class="muted" id="sim-n"></span></div>
+    <p class="muted">Each simulated Ryder Cup: Friday and Saturday play 4 four-ball + 4 foursomes with the
+      model's suggested pairings, then 12 singles alternating between each captain's ideal board.
+      Europe gets a small home edge at Adare Manor.</p>
+    <div class="chart-box tall"><canvas id="marginChart"></canvas></div>
+    <div class="likely-score" id="likely-score"></div>
+  </div>
+
+  <div class="grid-2">
+    <div class="panel">
+      <div class="panel-title">USA qualification <span class="muted" id="us-frac"></span></div>
+      <div class="progress"><div class="bar us" id="us-bar"></div></div>
+      <p class="muted small" id="us-rules"></p>
+    </div>
+    <div class="panel">
+      <div class="panel-title">Europe qualification <span class="muted" id="eu-frac"></span></div>
+      <div class="progress"><div class="bar eu" id="eu-bar"></div></div>
+      <p class="muted small" id="eu-rules"></p>
+    </div>
+  </div>
+
+  <div class="panel" id="data-note"></div>
+</section>
+
+<!-- ======================= TEAMS ======================= -->
+<section id="tab-teams" class="tab-panel">
+  <div class="grid-2">
+    <div class="team-panel us" id="team-usa"></div>
+    <div class="team-panel eu" id="team-eur"></div>
+  </div>
+  <div class="panel">
+    <div class="panel-title">Bubble watch — probability of making the team</div>
+    <p class="muted small">P(team) = chance of any roster spot · P(auto) = chance of a top-6 qualifying spot ·
+      P(pick) = chance of a captain's pick. Ratings are strokes per round vs an average tour field (lower is better).</p>
+    <div class="grid-2">
+      <div id="bubble-usa"></div>
+      <div id="bubble-eur"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= MATCH LAB ======================= -->
+<section id="tab-match" class="tab-panel">
+  <div class="panel">
+    <div class="panel-title">Match Lab — any head-to-head, down to the exact score</div>
+    <div class="match-controls">
+      <div class="format-toggle" id="fmt-toggle">
+        <button data-fmt="singles" class="active">Singles</button>
+        <button data-fmt="fourball">Four-ball</button>
+        <button data-fmt="foursomes">Foursomes</button>
+      </div>
+      <div class="match-selects" id="match-selects"></div>
+      <button class="reroll" id="reroll" title="Run a fresh batch of simulations">↻ Re-simulate 25,000 matches</button>
+    </div>
+    <div id="match-result"></div>
+    <div class="chart-box"><canvas id="scorelineChart"></canvas></div>
+    <p class="muted small">Every bar is the probability the match ends with exactly that scoreline —
+      “3&amp;2” means 3 up with 2 holes to play, “19th” means decided on the first extra hole.
+      These run in your browser on the same per-hole distributions the Python model uses, so the
+      headline numbers match the precomputed matrix.</p>
+  </div>
+</section>
+
+<!-- ======================= LINEUPS ======================= -->
+<section id="tab-lineups" class="tab-panel">
+  <div class="panel">
+    <div class="panel-title">The Sunday singles board — P(USA win) per matchup</div>
+    <p class="muted">Click any cell for the exact scoreline distribution of that matchup.</p>
+    <div class="heat-wrap" id="heatmap"></div>
+    <div id="heat-detail"></div>
+  </div>
+  <div class="grid-2">
+    <div class="panel" id="us-board"></div>
+    <div class="panel" id="eu-board"></div>
+  </div>
+  <div class="panel">
+    <div class="panel-title">Dream &amp; nightmare matchups</div>
+    <p class="muted small">Every player's most and least favourable projected opponent.</p>
+    <div class="grid-2">
+      <div id="dream-usa"></div>
+      <div id="dream-eur"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="panel-title">Suggested team sessions — Friday &amp; Saturday pairings</div>
+    <p class="muted small">Pairs ranked by expected points in each format (four-ball rewards firepower,
+      foursomes rewards steady alternates). The cup simulation plays each pairing twice.</p>
+    <div class="grid-2">
+      <div id="pairs-usa"></div>
+      <div id="pairs-eur"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= HOW IT WORKS ======================= -->
+<section id="tab-about" class="tab-panel">
+  <div class="panel">
+    <div class="panel-title">How the model works</div>
+    <ol class="method-list">
+      <li><b>Data.</b> A GitHub Action runs twice a week and pulls the Official World Golf Ranking plus every
+        completed PGA Tour event leaderboard from ESPN's public feeds, plus a hand-maintained log of
+        DP World Tour results and official European points snapshots. Everything lands in
+        <code>docs/data/model_output.json</code>, which this page reads. <span class="muted" id="about-data"></span></li>
+      <li><b>Ratings.</b> Each player's week is measured in strokes per round vs that field's average,
+        weighted by event strength, recency (26-week half-life) and rounds played, then shrunk toward
+        their OWGR-based prior. The result is a single number: strokes per round vs an average
+        PGA Tour field.</li>
+      <li><b>Team prediction.</b> A selection score blends form, world rank, qualifying points, Ryder Cup
+        experience and recent momentum. Early in the race, form and rank dominate; as 2027 results
+        arrive, weight flows to the official points races (America's points start at The American Express
+        in January, Europe's began at the British Masters in August 2026). A Monte Carlo of the actual
+        selection process — 6 automatic qualifiers by projected points, then 6 captain's picks that
+        favour experience — turns scores into probabilities.</li>
+      <li><b>Match engine.</b> Each player becomes a per-hole scoring distribution (eagle/birdie/par/bogey
+        rates) from their rating. Matches are then simulated hole by hole, 25,000 at a time, producing
+        win probabilities and <i>exact scoreline distributions</i>. A calibration constant sharpens
+        per-hole gaps so a 2-stroke favourite wins ~77% of singles matches, matching real match play.
+        Four-ball takes the best ball of two; foursomes blends partners' ratings with an
+        alternate-shot penalty.</li>
+      <li><b>Lineups.</b> The 12×12 singles matrix is solved with the Hungarian assignment algorithm:
+        the board that maximises USA points, the board that minimises them (Europe's ideal), and each
+        player's dream and nightmare opponent.</li>
+      <li><b>The Cup.</b> 10,000 full 28-point Ryder Cups are simulated — 16 team matches with the
+        suggested pairings, 12 singles, Europe at home — producing the win probabilities and the
+        scoreline distribution on the Overview tab.</li>
+    </ol>
+    <p class="muted small" id="about-params"></p>
+  </div>
+
+  <div class="grid-2">
+    <div class="panel">
+      <div class="panel-title">USA points (announced Sept 2026)</div>
+      <table class="points-table">
+        <tr><td>Majors</td><td>3,000 winner points</td></tr>
+        <tr><td>THE PLAYERS Championship</td><td>2,850</td></tr>
+        <tr><td>Signature &amp; Playoff events</td><td>2,250</td></tr>
+        <tr><td>Full-field PGA Tour events</td><td>1,500</td></tr>
+      </table>
+      <p class="muted small">2027 events only: The American Express (January) through the BMW Championship
+        (Aug 22). Top 6 qualify automatically; Jim Furyk picks six more after the TOUR Championship.</p>
+    </div>
+    <div class="panel">
+      <div class="panel-title">Europe points (announced Aug 2026)</div>
+      <table class="points-table">
+        <tr><td>Majors</td><td>5,000-point pool</td></tr>
+        <tr><td>PGA Signature / Players / Playoffs</td><td>3,000</td></tr>
+        <tr><td>Rolex Series &amp; regular PGA Tour</td><td>2,000</td></tr>
+        <tr><td>DP World Tour Back 9</td><td>1,500</td></tr>
+        <tr><td>Global Series / opposite field</td><td>1,000</td></tr>
+      </table>
+      <p class="muted small">One list, Aug 27 2026 → Aug 22 2027, for eligible DP World Tour members.
+        Leading six qualify automatically; Luke Donald picks six more.</p>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="panel-title">Making it your own</div>
+    <p>Fork it, tweak the knobs in <code>model/config.py</code> (match sharpness, home advantage,
+      form half-life, selection weights), edit the seed pool in <code>data/seed_pool.json</code>,
+      or add results to <code>data/manual/results_log.json</code>, then run
+      <code>python3 -m model.pipeline</code>. The weekly GitHub Action recomputes everything and
+      commits the fresh output automatically — so the model's opinions evolve with every tournament,
+      and its git history is a diary of the 2027 season changing its mind.</p>
+    <p class="muted small">Fan project, not affiliated with Ryder Cup Europe or the PGA of America.
+      Estimated points approximate the official schedules; probabilities are model opinion, not
+      betting advice.</p>
+    <p class="small"><a id="repo-link" class="repo-link" href="#" target="_blank" rel="noopener"></a></p>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div>Built for the 46th Ryder Cup at Adare Manor · 17–19 September 2027 ·
+    the 100th anniversary of the 1927 matches.</div>
+  <div class="muted small">Data: ESPN / OWGR · engine: hole-by-hole Monte Carlo ·
+    <span id="foot-generated"></span></div>
+</footer>
+
+<noscript><p style="text-align:center;padding:2rem">This dashboard needs JavaScript to render the model output.</p></noscript>
+<script src="app.js"></script>
+</body>
+</html>

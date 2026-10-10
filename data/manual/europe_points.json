@@ -1,0 +1,18 @@
+{
+  "_note": "Official European Ryder Cup points snapshot, entered by hand from the published list. Update this file when Ryder Cup Europe publishes a new snapshot; unknown players fall back to modeled points from live results.",
+  "as_of": "2026-09-20",
+  "points": [
+    {"name": "Shane Lowry", "rank": 1, "points": 271.9},
+    {"name": "Joe Dean", "rank": 2, "points": 265.7},
+    {"name": "Rory McIlroy", "rank": 3, "points": 142.05},
+    {"name": "Manuel Elvira", "rank": 4, "points": 141.15},
+    {"name": "Jacob Skov Olesen", "rank": 5, "points": 141.0},
+    {"name": "Nacho Elvira", "rank": 6, "points": 135.6},
+    {"name": "Aaron Rai", "rank": 7, "points": null},
+    {"name": "Niklas Norgaard", "rank": 8, "points": null},
+    {"name": "Harry Hall", "rank": 9, "points": null},
+    {"name": "Matt Wallace", "rank": 10, "points": null},
+    {"name": "Eugenio Chacarra", "rank": 11, "points": null},
+    {"name": "Tom McKibbin", "rank": 12, "points": null}
+  ]
+}

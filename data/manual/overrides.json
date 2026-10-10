@@ -1,0 +1,6 @@
+{
+  "_note": "Per-player overrides merged into the pool every run. Use for eligibility, notes, or manual ratings (strokes/round vs a PGA Tour field).",
+  "players": [
+    {"name": "Keegan Bradley", "ineligible": true, "note": "2025 U.S. captain; not a 2027 playing candidate"}
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "_note": "Manual results for events the live feeds don't cover (DP World Tour). The pipeline converts each listed finish into a rating observation and estimated qualification points. 'class' follows the official categories: major / players / signature / playoff / rolex / pga_regular / back9 / global / opposite. Add full leaderboards later if you want richer data.",
+  "events": [
+    {
+      "date": "2026-08-30",
+      "name": "Betfred British Masters",
+      "class": "back9",
+      "results": [
+        {"name": "Joe Dean", "position": 1}
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "name": "Horizon Irish Open",
+      "class": "rolex",
+      "results": [
+        {"name": "Shane Lowry", "position": 1}
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "name": "BMW PGA Championship",
+      "class": "rolex",
+      "results": [
+        {"name": "J.J. Spaun", "position": 1}
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "name": "FedEx Open de France",
+      "class": "back9",
+      "results": [
+        {"name": "Matt Fitzpatrick", "position": 1}
+      ]
+    }
+  ]
+}
