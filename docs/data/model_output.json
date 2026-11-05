@@ -1,8 +1,8 @@
 {
  "meta": {
-  "generated_at": "2026-11-02T12:41:58+00:00",
-  "today": "2026-11-02",
-  "owgr_as_of": "2026-10-25",
+  "generated_at": "2026-11-05T19:09:03+00:00",
+  "today": "2026-11-05",
+  "owgr_as_of": "2026-11-01",
   "eu_points_as_of": "2026-09-20",
   "event": {
    "name": "The 46th Ryder Cup",
@@ -35,7 +35,7 @@
      "2026-08-27",
      "2027-08-22"
     ],
-    "fraction_complete": 0.1861,
+    "fraction_complete": 0.1944,
     "rules": "Single European points list from 27 Aug 2026 to 22 Aug 2027. Majors 5,000-point pools; PGA TOUR Signature/Players/Playoffs 3,000; Rolex Series and regular PGA TOUR 2,000; DP World Tour Back 9 1,500; Global Series 1,000. Leading six qualify; 6 captain's picks."
    }
   },
@@ -46,11 +46,10 @@
    "disclaimer": "Fan model for entertainment. Estimated points approximate the official schedules; probabilities are model opinion, not betting advice."
   },
   "data": {
-   "events_counted": 108,
+   "events_counted": 110,
    "manual_events_counted": 4,
    "fetch_sources": {
-    "pga-net": 67,
-    "pga-unavailable": 1
+    "pga-net": 68
    }
   },
   "model": {
@@ -73,7 +72,6 @@
    "Doug Ghim",
    "Eric Cole",
    "Gary Woodland",
-   "Jackson Suber",
    "Jake Knapp",
    "Johnny Keefer",
    "Keegan Bradley",
@@ -83,6 +81,7 @@
    "Mac Meissner",
    "Matt McCarty",
    "Matti Schmid",
+   "Max Greyserman",
    "Michael Brennan",
    "Michael Kim",
    "Pierceson Coody",
@@ -92,8 +91,8 @@
    "Sandy Scott",
    "Steven Fisk"
   ],
-  "runtime_seconds": 24.7,
-  "python": "3.11.17"
+  "runtime_seconds": 31.9,
+  "python": "3.11.18"
  },
  "players": {
   "USA": [
@@ -104,10 +103,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9478.png",
     "country": "USA",
     "owgr_rank": 1,
-    "rating": -2.326,
+    "rating": -2.344,
     "prior": -2.15,
     "momentum": -1.662,
-    "n_events": 47,
+    "n_events": 49,
     "apps": 2,
     "liv": false,
     "note": "World No. 1; anchored the 2026 Presidents Cup comeback at Medinah",
@@ -119,9 +118,9 @@
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 4.5962,
+     "score": 4.614,
      "components": {
-      "form": 2.326,
+      "form": 2.344,
       "rank": 2.15,
       "points": 0.0,
       "experience": 0.4,
@@ -138,11 +137,59 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.04207,
-     "birdie": 0.33022,
-     "par": 0.50987,
-     "bogey": 0.09988,
-     "dbl": 0.01797
+     "eagle": 0.0423,
+     "birdie": 0.33099,
+     "par": 0.50941,
+     "bogey": 0.09946,
+     "dbl": 0.01785
+    }
+   },
+   {
+    "name": "Xander Schauffele",
+    "team": "USA",
+    "espn_id": "10140",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
+    "country": "USA",
+    "owgr_rank": 7,
+    "rating": -1.117,
+    "prior": -1.21,
+    "momentum": -0.865,
+    "n_events": 49,
+    "apps": 3,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.9761,
+    "p_auto": 0.0994,
+    "p_pick": 0.8767,
+    "projected_auto": true,
+    "projected_pick": false,
+    "selection": {
+     "score": 2.4944,
+     "components": {
+      "form": 1.117,
+      "rank": 1.21,
+      "points": 0.0,
+      "experience": 0.6,
+      "momentum": 0.865
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 1.0,
+      "rank": 0.8,
+      "points": 0.1,
+      "experience": 0.25,
+      "momentum": 0.3
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.02644,
+     "birdie": 0.27812,
+     "par": 0.54113,
+     "bogey": 0.12853,
+     "dbl": 0.02578
     }
    },
    {
@@ -152,24 +199,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/10166.png",
     "country": "USA",
     "owgr_rank": 12,
-    "rating": -1.394,
+    "rating": -1.364,
     "prior": -0.92,
     "momentum": -2.5,
-    "n_events": 55,
+    "n_events": 57,
     "apps": 0,
     "liv": false,
     "note": "Won the 2026 BMW PGA at Wentworth (no US points before 2027)",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9712,
-    "p_auto": 0.1027,
-    "p_pick": 0.8685,
+    "p_team": 0.9655,
+    "p_auto": 0.1017,
+    "p_pick": 0.8638,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 2.5798,
+     "score": 2.5499,
      "components": {
-      "form": 1.394,
+      "form": 1.364,
       "rank": 0.92,
       "points": 0.0,
       "experience": 0.0,
@@ -186,59 +233,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.03002,
-     "birdie": 0.29005,
-     "par": 0.53397,
-     "bogey": 0.12197,
-     "dbl": 0.02399
-    }
-   },
-   {
-    "name": "Xander Schauffele",
-    "team": "USA",
-    "espn_id": "10140",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/10140.png",
-    "country": "USA",
-    "owgr_rank": 8,
-    "rating": -1.128,
-    "prior": -1.14,
-    "momentum": -0.865,
-    "n_events": 47,
-    "apps": 3,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.9657,
-    "p_auto": 0.0989,
-    "p_pick": 0.8668,
-    "projected_auto": true,
-    "projected_pick": false,
-    "selection": {
-     "score": 2.4492,
-     "components": {
-      "form": 1.128,
-      "rank": 1.14,
-      "points": 0.0,
-      "experience": 0.6,
-      "momentum": 0.865
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 1.0,
-      "rank": 0.8,
-      "points": 0.1,
-      "experience": 0.25,
-      "momentum": 0.3
-     }
-    },
-    "seed": true,
-    "hole_dist": {
-     "eagle": 0.02658,
-     "birdie": 0.27859,
-     "par": 0.54085,
-     "bogey": 0.12828,
-     "dbl": 0.02571
+     "eagle": 0.02963,
+     "birdie": 0.28876,
+     "par": 0.53474,
+     "bogey": 0.12268,
+     "dbl": 0.02419
     }
    },
    {
@@ -248,24 +247,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/10592.png",
     "country": "USA",
     "owgr_rank": 11,
-    "rating": -1.54,
+    "rating": -1.573,
     "prior": -0.96,
     "momentum": 0.019,
-    "n_events": 45,
+    "n_events": 47,
     "apps": 2,
     "liv": false,
     "note": "Foursomes-fit iron player",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9444,
-    "p_auto": 0.0994,
-    "p_pick": 0.845,
+    "p_team": 0.9585,
+    "p_auto": 0.0996,
+    "p_pick": 0.8589,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 2.4018,
+     "score": 2.4357,
      "components": {
-      "form": 1.54,
+      "form": 1.573,
       "rank": 0.96,
       "points": 0.0,
       "experience": 0.4,
@@ -282,11 +281,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0319,
-     "birdie": 0.29633,
-     "par": 0.5302,
-     "bogey": 0.11852,
-     "dbl": 0.02305
+     "eagle": 0.03234,
+     "birdie": 0.29779,
+     "par": 0.52933,
+     "bogey": 0.11772,
+     "dbl": 0.02283
     }
    },
    {
@@ -296,24 +295,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4425906.png",
     "country": "USA",
     "owgr_rank": 4,
-    "rating": -1.185,
+    "rating": -1.131,
     "prior": -1.55,
     "momentum": -0.162,
-    "n_events": 49,
+    "n_events": 51,
     "apps": 0,
     "liv": false,
     "note": "Breakout 2026; 3 points at the Presidents Cup",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9431,
-    "p_auto": 0.0989,
-    "p_pick": 0.8442,
+    "p_team": 0.9239,
+    "p_auto": 0.098,
+    "p_pick": 0.8259,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 2.4738,
+     "score": 2.4199,
      "components": {
-      "form": 1.185,
+      "form": 1.131,
       "rank": 1.55,
       "points": 0.0,
       "experience": 0.0,
@@ -330,11 +329,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02732,
-     "birdie": 0.28106,
-     "par": 0.53936,
-     "bogey": 0.12691,
-     "dbl": 0.02534
+     "eagle": 0.02662,
+     "birdie": 0.27874,
+     "par": 0.54076,
+     "bogey": 0.12819,
+     "dbl": 0.02569
     }
    },
    {
@@ -344,24 +343,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4690755.png",
     "country": "USA",
     "owgr_rank": 6,
-    "rating": -1.044,
+    "rating": -1.016,
     "prior": -1.28,
     "momentum": -0.412,
-    "n_events": 55,
+    "n_events": 57,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.7611,
-    "p_auto": 0.093,
-    "p_pick": 0.6681,
+    "p_team": 0.7361,
+    "p_auto": 0.0927,
+    "p_pick": 0.6434,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 2.1919,
+     "score": 2.1638,
      "components": {
-      "form": 1.044,
+      "form": 1.016,
       "rank": 1.28,
       "points": 0.0,
       "experience": 0.0,
@@ -378,42 +377,42 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0255,
-     "birdie": 0.27499,
-     "par": 0.54301,
-     "bogey": 0.13026,
-     "dbl": 0.02625
+     "eagle": 0.02513,
+     "birdie": 0.27378,
+     "par": 0.54373,
+     "bogey": 0.13092,
+     "dbl": 0.02643
     }
    },
    {
-    "name": "Russell Henley",
+    "name": "Sam Burns",
     "team": "USA",
-    "espn_id": "5409",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5409.png",
+    "espn_id": "9938",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9938.png",
     "country": "USA",
     "owgr_rank": 9,
-    "rating": -1.048,
+    "rating": -1.186,
     "prior": -1.07,
-    "momentum": -0.412,
-    "n_events": 47,
-    "apps": 0,
+    "momentum": 0.588,
+    "n_events": 51,
+    "apps": 1,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.5669,
-    "p_auto": 0.0964,
-    "p_pick": 0.4704,
+    "p_team": 0.484,
+    "p_auto": 0.0961,
+    "p_pick": 0.3879,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 2.0279,
+     "score": 1.916,
      "components": {
-      "form": 1.048,
+      "form": 1.186,
       "rank": 1.07,
       "points": 0.0,
-      "experience": 0.0,
-      "momentum": 0.412
+      "experience": 0.2,
+      "momentum": -0.588
      },
      "points_share": 0.0,
      "weights": {
@@ -426,11 +425,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02555,
-     "birdie": 0.27517,
-     "par": 0.5429,
-     "bogey": 0.13016,
-     "dbl": 0.02623
+     "eagle": 0.02733,
+     "birdie": 0.28112,
+     "par": 0.53933,
+     "bogey": 0.12689,
+     "dbl": 0.02533
     }
    },
    {
@@ -440,24 +439,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5054388.png",
     "country": "USA",
     "owgr_rank": 16,
-    "rating": -0.913,
+    "rating": -0.884,
     "prior": -0.764,
     "momentum": -2.183,
-    "n_events": 64,
+    "n_events": 66,
     "apps": 0,
     "liv": false,
     "note": "Breakout 2026",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.4997,
-    "p_auto": 0.0973,
-    "p_pick": 0.4024,
+    "p_team": 0.4724,
+    "p_auto": 0.097,
+    "p_pick": 0.3754,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.974,
+     "score": 1.9452,
      "components": {
-      "form": 0.913,
+      "form": 0.884,
       "rank": 0.764,
       "points": 0.0,
       "experience": 0.0,
@@ -474,42 +473,42 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0238,
-     "birdie": 0.26933,
-     "par": 0.5464,
-     "bogey": 0.13337,
-     "dbl": 0.0271
+     "eagle": 0.02343,
+     "birdie": 0.26808,
+     "par": 0.54715,
+     "bogey": 0.13405,
+     "dbl": 0.02729
     }
    },
    {
-    "name": "Sam Burns",
+    "name": "Russell Henley",
     "team": "USA",
-    "espn_id": "9938",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9938.png",
+    "espn_id": "5409",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5409.png",
     "country": "USA",
     "owgr_rank": 10,
-    "rating": -1.112,
+    "rating": -0.99,
     "prior": -1.0,
-    "momentum": 0.588,
+    "momentum": -0.412,
     "n_events": 49,
-    "apps": 1,
+    "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.3315,
-    "p_auto": 0.0938,
-    "p_pick": 0.2377,
+    "p_team": 0.4358,
+    "p_auto": 0.094,
+    "p_pick": 0.3418,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.7857,
+     "score": 1.9136,
      "components": {
-      "form": 1.112,
+      "form": 0.99,
       "rank": 1.0,
       "points": 0.0,
-      "experience": 0.2,
-      "momentum": -0.588
+      "experience": 0.0,
+      "momentum": 0.412
      },
      "points_share": 0.0,
      "weights": {
@@ -522,11 +521,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02637,
-     "birdie": 0.27791,
-     "par": 0.54125,
-     "bogey": 0.12865,
-     "dbl": 0.02581
+     "eagle": 0.0248,
+     "birdie": 0.27265,
+     "par": 0.54441,
+     "bogey": 0.13154,
+     "dbl": 0.0266
     }
    },
    {
@@ -536,24 +535,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5579.png",
     "country": "USA",
     "owgr_rank": 32,
-    "rating": -1.096,
+    "rating": -1.055,
     "prior": -0.396,
     "momentum": 0.0,
-    "n_events": 10,
+    "n_events": 11,
     "apps": 5,
     "liv": true,
     "note": "LIV; captain's-pick case only",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.3244,
-    "p_auto": 0.0935,
-    "p_pick": 0.2309,
+    "p_team": 0.2904,
+    "p_auto": 0.0934,
+    "p_pick": 0.1971,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.6626,
+     "score": 1.6221,
      "components": {
-      "form": 1.096,
+      "form": 1.055,
       "rank": 0.396,
       "points": 0.0,
       "experience": 1.0,
@@ -570,11 +569,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02616,
-     "birdie": 0.27721,
-     "par": 0.54167,
-     "bogey": 0.12903,
-     "dbl": 0.02592
+     "eagle": 0.02564,
+     "birdie": 0.27547,
+     "par": 0.54272,
+     "bogey": 0.12999,
+     "dbl": 0.02618
     }
    },
    {
@@ -584,24 +583,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4921329.png",
     "country": "USA",
     "owgr_rank": 18,
-    "rating": -0.765,
+    "rating": -0.761,
     "prior": -0.692,
     "momentum": -2.058,
-    "n_events": 59,
+    "n_events": 60,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.2793,
+    "p_team": 0.2802,
     "p_auto": 0.0945,
-    "p_pick": 0.1847,
+    "p_pick": 0.1857,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.769,
+     "score": 1.7648,
      "components": {
-      "form": 0.765,
+      "form": 0.761,
       "rank": 0.692,
       "points": 0.0,
       "experience": 0.0,
@@ -618,59 +617,11 @@
     },
     "seed": false,
     "hole_dist": {
-     "eagle": 0.02189,
-     "birdie": 0.26298,
-     "par": 0.55021,
-     "bogey": 0.13686,
-     "dbl": 0.02805
-    }
-   },
-   {
-    "name": "Ben James",
-    "team": "USA",
-    "espn_id": "5077389",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5077389.png",
-    "country": "USA",
-    "owgr_rank": 83,
-    "rating": -1.262,
-    "prior": 0.071,
-    "momentum": -2.083,
-    "n_events": 22,
-    "apps": 0,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.202,
-    "p_auto": 0.0949,
-    "p_pick": 0.1071,
-    "projected_auto": false,
-    "projected_pick": true,
-    "selection": {
-     "score": 1.6553,
-     "components": {
-      "form": 1.262,
-      "rank": -0.071,
-      "points": 0.0,
-      "experience": 0.0,
-      "momentum": 1.5
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 1.0,
-      "rank": 0.8,
-      "points": 0.1,
-      "experience": 0.25,
-      "momentum": 0.3
-     }
-    },
-    "seed": false,
-    "hole_dist": {
-     "eagle": 0.02831,
-     "birdie": 0.28438,
-     "par": 0.53737,
-     "bogey": 0.12509,
-     "dbl": 0.02484
+     "eagle": 0.02184,
+     "birdie": 0.26279,
+     "par": 0.55032,
+     "bogey": 0.13696,
+     "dbl": 0.02808
     }
    },
    {
@@ -680,24 +631,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/11119.png",
     "country": "USA",
     "owgr_rank": 5,
-    "rating": -0.783,
+    "rating": -0.885,
     "prior": -1.35,
     "momentum": 1.535,
-    "n_events": 55,
+    "n_events": 57,
     "apps": 2,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.1674,
-    "p_auto": 0.0938,
-    "p_pick": 0.0737,
+    "p_team": 0.2258,
+    "p_auto": 0.0939,
+    "p_pick": 0.132,
     "projected_auto": false,
-    "projected_pick": false,
+    "projected_pick": true,
     "selection": {
-     "score": 1.5133,
+     "score": 1.6153,
      "components": {
-      "form": 0.783,
+      "form": 0.885,
       "rank": 1.35,
       "points": 0.0,
       "experience": 0.4,
@@ -714,11 +665,107 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02212,
-     "birdie": 0.26375,
-     "par": 0.54975,
-     "bogey": 0.13644,
-     "dbl": 0.02794
+     "eagle": 0.02344,
+     "birdie": 0.26814,
+     "par": 0.54711,
+     "bogey": 0.13402,
+     "dbl": 0.02728
+    }
+   },
+   {
+    "name": "Ben Griffin",
+    "team": "USA",
+    "espn_id": "4404992",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4404992.png",
+    "country": "USA",
+    "owgr_rank": 25,
+    "rating": -0.735,
+    "prior": -0.52,
+    "momentum": -2.5,
+    "n_events": 63,
+    "apps": 0,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.1754,
+    "p_auto": 0.0934,
+    "p_pick": 0.0819,
+    "projected_auto": false,
+    "projected_pick": false,
+    "selection": {
+     "score": 1.6005,
+     "components": {
+      "form": 0.735,
+      "rank": 0.52,
+      "points": 0.0,
+      "experience": 0.0,
+      "momentum": 1.5
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 1.0,
+      "rank": 0.8,
+      "points": 0.1,
+      "experience": 0.25,
+      "momentum": 0.3
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.02149,
+     "birdie": 0.26165,
+     "par": 0.55101,
+     "bogey": 0.13759,
+     "dbl": 0.02825
+    }
+   },
+   {
+    "name": "Ben James",
+    "team": "USA",
+    "espn_id": "5077389",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5077389.png",
+    "country": "USA",
+    "owgr_rank": 78,
+    "rating": -1.162,
+    "prior": 0.039,
+    "momentum": -2.083,
+    "n_events": 24,
+    "apps": 0,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.1673,
+    "p_auto": 0.095,
+    "p_pick": 0.0723,
+    "projected_auto": false,
+    "projected_pick": false,
+    "selection": {
+     "score": 1.5804,
+     "components": {
+      "form": 1.162,
+      "rank": -0.039,
+      "points": 0.0,
+      "experience": 0.0,
+      "momentum": 1.5
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 1.0,
+      "rank": 0.8,
+      "points": 0.1,
+      "experience": 0.25,
+      "momentum": 0.3
+     }
+    },
+    "seed": false,
+    "hole_dist": {
+     "eagle": 0.02702,
+     "birdie": 0.28005,
+     "par": 0.53997,
+     "bogey": 0.12747,
+     "dbl": 0.02549
     }
    },
    {
@@ -728,24 +775,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5076021.png",
     "country": "USA",
     "owgr_rank": 23,
-    "rating": -0.749,
+    "rating": -0.722,
     "prior": -0.56,
     "momentum": -1.236,
-    "n_events": 63,
+    "n_events": 65,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.157,
+    "p_team": 0.1484,
     "p_auto": 0.0911,
-    "p_pick": 0.0659,
+    "p_pick": 0.0573,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 1.568,
+     "score": 1.5412,
      "components": {
-      "form": 0.749,
+      "form": 0.722,
       "rank": 0.56,
       "points": 0.0,
       "experience": 0.0,
@@ -762,39 +809,39 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02168,
-     "birdie": 0.26228,
-     "par": 0.55063,
-     "bogey": 0.13725,
-     "dbl": 0.02816
+     "eagle": 0.02134,
+     "birdie": 0.26112,
+     "par": 0.55133,
+     "bogey": 0.13788,
+     "dbl": 0.02833
     }
    },
    {
-    "name": "Ben Griffin",
+    "name": "Doug Ghim",
     "team": "USA",
-    "espn_id": "4404992",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4404992.png",
+    "espn_id": "11456",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/11456.png",
     "country": "USA",
-    "owgr_rank": 28,
-    "rating": -0.682,
-    "prior": -0.46,
-    "momentum": -2.5,
-    "n_events": 61,
+    "owgr_rank": 91,
+    "rating": -1.053,
+    "prior": 0.122,
+    "momentum": -2.045,
+    "n_events": 59,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.1358,
-    "p_auto": 0.0932,
-    "p_pick": 0.0426,
+    "p_team": 0.1172,
+    "p_auto": 0.0949,
+    "p_pick": 0.0222,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 1.5,
+     "score": 1.4048,
      "components": {
-      "form": 0.682,
-      "rank": 0.46,
+      "form": 1.053,
+      "rank": -0.122,
       "points": 0.0,
       "experience": 0.0,
       "momentum": 1.5
@@ -808,13 +855,13 @@
       "momentum": 0.3
      }
     },
-    "seed": true,
+    "seed": false,
     "hole_dist": {
-     "eagle": 0.02082,
-     "birdie": 0.25938,
-     "par": 0.55237,
-     "bogey": 0.13884,
-     "dbl": 0.02859
+     "eagle": 0.02561,
+     "birdie": 0.27536,
+     "par": 0.54279,
+     "bogey": 0.13005,
+     "dbl": 0.0262
     }
    },
    {
@@ -824,24 +871,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5215013.png",
     "country": "USA",
     "owgr_rank": 59,
-    "rating": -1.064,
+    "rating": -1.076,
     "prior": -0.108,
     "momentum": -0.824,
-    "n_events": 21,
+    "n_events": 22,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.1111,
+    "p_team": 0.1132,
     "p_auto": 0.0901,
-    "p_pick": 0.021,
+    "p_pick": 0.0231,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 1.3977,
+     "score": 1.4096,
      "components": {
-      "form": 1.064,
+      "form": 1.076,
       "rank": 0.108,
       "points": 0.0,
       "experience": 0.0,
@@ -858,59 +905,11 @@
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02576,
-     "birdie": 0.27585,
-     "par": 0.54249,
-     "bogey": 0.12978,
-     "dbl": 0.02612
-    }
-   },
-   {
-    "name": "Doug Ghim",
-    "team": "USA",
-    "espn_id": "11456",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/11456.png",
-    "country": "USA",
-    "owgr_rank": 97,
-    "rating": -1.05,
-    "prior": 0.161,
-    "momentum": -2.045,
-    "n_events": 59,
-    "apps": 0,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.1108,
-    "p_auto": 0.0925,
-    "p_pick": 0.0183,
-    "projected_auto": false,
-    "projected_pick": false,
-    "selection": {
-     "score": 1.3714,
-     "components": {
-      "form": 1.05,
-      "rank": -0.161,
-      "points": 0.0,
-      "experience": 0.0,
-      "momentum": 1.5
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 1.0,
-      "rank": 0.8,
-      "points": 0.1,
-      "experience": 0.25,
-      "momentum": 0.3
-     }
-    },
-    "seed": false,
-    "hole_dist": {
-     "eagle": 0.02557,
-     "birdie": 0.27524,
-     "par": 0.54286,
-     "bogey": 0.13012,
-     "dbl": 0.02621
+     "eagle": 0.02591,
+     "birdie": 0.27636,
+     "par": 0.54218,
+     "bogey": 0.1295,
+     "dbl": 0.02605
     }
    },
    {
@@ -919,26 +918,26 @@
     "espn_id": "6922",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/6922.png",
     "country": "USA",
-    "owgr_rank": 92,
-    "rating": -0.987,
-    "prior": 0.129,
+    "owgr_rank": 93,
+    "rating": -0.997,
+    "prior": 0.135,
     "momentum": -1.5,
-    "n_events": 46,
+    "n_events": 47,
     "apps": 0,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.1061,
-    "p_auto": 0.0948,
-    "p_pick": 0.0114,
+    "p_team": 0.106,
+    "p_auto": 0.0922,
+    "p_pick": 0.0138,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 1.3344,
+     "score": 1.3392,
      "components": {
-      "form": 0.987,
-      "rank": -0.129,
+      "form": 0.997,
+      "rank": -0.135,
       "points": 0.0,
       "experience": 0.0,
       "momentum": 1.5
@@ -954,11 +953,11 @@
     },
     "seed": false,
     "hole_dist": {
-     "eagle": 0.02476,
-     "birdie": 0.27254,
-     "par": 0.54447,
-     "bogey": 0.1316,
-     "dbl": 0.02662
+     "eagle": 0.02489,
+     "birdie": 0.27297,
+     "par": 0.54422,
+     "bogey": 0.13137,
+     "dbl": 0.02655
     }
    }
   ],
@@ -970,10 +969,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/3470.png",
     "country": "Northern Ireland",
     "owgr_rank": 2,
-    "rating": -1.362,
+    "rating": -1.353,
     "prior": -1.95,
     "momentum": -0.412,
-    "n_events": 32,
+    "n_events": 33,
     "apps": 8,
     "liv": false,
     "note": "Emotional cornerstone of an Irish Ryder Cup",
@@ -985,9 +984,9 @@
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 3.1575,
+     "score": 3.1416,
      "components": {
-      "form": 1.362,
+      "form": 1.353,
       "rank": 1.95,
       "points": 0.382,
       "experience": 1.0,
@@ -995,20 +994,20 @@
      },
      "points_share": 0.382,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0296,
-     "birdie": 0.28866,
-     "par": 0.5348,
-     "bogey": 0.12274,
-     "dbl": 0.0242
+     "eagle": 0.02948,
+     "birdie": 0.28828,
+     "par": 0.53503,
+     "bogey": 0.12295,
+     "dbl": 0.02426
     }
    },
    {
@@ -1018,24 +1017,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9037.png",
     "country": "England",
     "owgr_rank": 3,
-    "rating": -1.122,
+    "rating": -1.165,
     "prior": -1.75,
     "momentum": 1.088,
-    "n_events": 45,
+    "n_events": 47,
     "apps": 4,
     "liv": false,
     "note": "Won the 2026 Open de France",
     "points": 371.9,
     "points_source": "modeled",
     "p_team": 1.0,
-    "p_auto": 0.9997,
-    "p_pick": 0.0003,
+    "p_auto": 0.9999,
+    "p_pick": 0.0001,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 2.6436,
+     "score": 2.6896,
      "components": {
-      "form": 1.122,
+      "form": 1.165,
       "rank": 1.75,
       "points": 1.0,
       "experience": 0.8,
@@ -1043,20 +1042,20 @@
      },
      "points_share": 1.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0265,
-     "birdie": 0.27834,
-     "par": 0.541,
-     "bogey": 0.12842,
-     "dbl": 0.02575
+     "eagle": 0.02706,
+     "birdie": 0.28019,
+     "par": 0.53989,
+     "bogey": 0.12739,
+     "dbl": 0.02547
     }
    },
    {
@@ -1065,46 +1064,46 @@
     "espn_id": "5539",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5539.png",
     "country": "England",
-    "owgr_rank": 7,
-    "rating": -1.185,
-    "prior": -1.21,
+    "owgr_rank": 8,
+    "rating": -1.2,
+    "prior": -1.14,
     "momentum": -0.162,
-    "n_events": 43,
+    "n_events": 45,
     "apps": 4,
     "liv": false,
     "note": "T4 at the 2026 Open",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9999,
-    "p_auto": 0.1666,
-    "p_pick": 0.8334,
+    "p_team": 0.9998,
+    "p_auto": 0.1488,
+    "p_pick": 0.851,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 2.1743,
+     "score": 2.1286,
      "components": {
-      "form": 1.185,
-      "rank": 1.21,
+      "form": 1.2,
+      "rank": 1.14,
       "points": 0.0,
       "experience": 0.8,
       "momentum": 0.162
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02732,
-     "birdie": 0.28107,
-     "par": 0.53936,
-     "bogey": 0.12691,
-     "dbl": 0.02534
+     "eagle": 0.02751,
+     "birdie": 0.28168,
+     "par": 0.53899,
+     "bogey": 0.12657,
+     "dbl": 0.02525
     }
    },
    {
@@ -1114,24 +1113,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9780.png",
     "country": "Spain",
     "owgr_rank": 15,
-    "rating": -0.96,
+    "rating": -0.906,
     "prior": -0.8,
     "momentum": 0.0,
-    "n_events": 10,
+    "n_events": 11,
     "apps": 4,
     "liv": true,
     "note": "LIV; DPWT exemption denied in 2026 \u2014 pick case",
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9795,
-    "p_auto": 0.0783,
-    "p_pick": 0.9012,
+    "p_team": 0.969,
+    "p_auto": 0.0757,
+    "p_pick": 0.8932,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.6373,
+     "score": 1.5816,
      "components": {
-      "form": 0.96,
+      "form": 0.906,
       "rank": 0.8,
       "points": 0.0,
       "experience": 0.8,
@@ -1139,20 +1138,20 @@
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.0244,
-     "birdie": 0.27134,
-     "par": 0.5452,
-     "bogey": 0.13226,
-     "dbl": 0.0268
+     "eagle": 0.02372,
+     "birdie": 0.26905,
+     "par": 0.54657,
+     "bogey": 0.13352,
+     "dbl": 0.02714
     }
    },
    {
@@ -1162,24 +1161,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4375972.png",
     "country": "Sweden",
     "owgr_rank": 20,
-    "rating": -1.099,
+    "rating": -1.067,
     "prior": -0.62,
     "momentum": -0.412,
-    "n_events": 45,
+    "n_events": 47,
     "apps": 2,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9705,
-    "p_auto": 0.0761,
-    "p_pick": 0.8943,
+    "p_team": 0.9599,
+    "p_auto": 0.074,
+    "p_pick": 0.886,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.6519,
+     "score": 1.6153,
      "components": {
-      "form": 1.099,
+      "form": 1.067,
       "rank": 0.62,
       "points": 0.0,
       "experience": 0.4,
@@ -1187,20 +1186,20 @@
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02621,
-     "birdie": 0.27737,
-     "par": 0.54158,
-     "bogey": 0.12895,
-     "dbl": 0.0259
+     "eagle": 0.0258,
+     "birdie": 0.27599,
+     "par": 0.54241,
+     "bogey": 0.12971,
+     "dbl": 0.0261
     }
    },
    {
@@ -1210,24 +1209,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4364873.png",
     "country": "Norway",
     "owgr_rank": 13,
-    "rating": -0.646,
+    "rating": -0.682,
     "prior": -0.88,
     "momentum": -0.912,
-    "n_events": 43,
+    "n_events": 45,
     "apps": 2,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9485,
-    "p_auto": 0.0692,
-    "p_pick": 0.8793,
+    "p_team": 0.9542,
+    "p_auto": 0.0702,
+    "p_pick": 0.884,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.5538,
+     "score": 1.5796,
      "components": {
-      "form": 0.646,
+      "form": 0.682,
       "rank": 0.88,
       "points": 0.0,
       "experience": 0.4,
@@ -1235,20 +1234,20 @@
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02035,
-     "birdie": 0.25783,
-     "par": 0.5533,
-     "bogey": 0.1397,
-     "dbl": 0.02883
+     "eagle": 0.02082,
+     "birdie": 0.2594,
+     "par": 0.55236,
+     "bogey": 0.13883,
+     "dbl": 0.02859
     }
    },
    {
@@ -1257,46 +1256,46 @@
     "espn_id": "5553",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5553.png",
     "country": "England",
-    "owgr_rank": 26,
-    "rating": -0.927,
-    "prior": -0.5,
+    "owgr_rank": 28,
+    "rating": -1.028,
+    "prior": -0.46,
     "momentum": 0.0,
-    "n_events": 10,
+    "n_events": 11,
     "apps": 4,
     "liv": true,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.9158,
-    "p_auto": 0.0633,
-    "p_pick": 0.8525,
+    "p_team": 0.9349,
+    "p_auto": 0.0649,
+    "p_pick": 0.87,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 1.3979,
+     "score": 1.4567,
      "components": {
-      "form": 0.927,
-      "rank": 0.5,
+      "form": 1.028,
+      "rank": 0.46,
       "points": 0.0,
       "experience": 0.8,
       "momentum": -0.0
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.02398,
-     "birdie": 0.26993,
-     "par": 0.54604,
-     "bogey": 0.13304,
-     "dbl": 0.02701
+     "eagle": 0.02528,
+     "birdie": 0.27428,
+     "par": 0.54343,
+     "bogey": 0.13064,
+     "dbl": 0.02636
     }
    },
    {
@@ -1306,24 +1305,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4587.png",
     "country": "Ireland",
     "owgr_rank": 43,
-    "rating": -0.468,
+    "rating": -0.463,
     "prior": -0.264,
     "momentum": 0.0,
-    "n_events": 39,
+    "n_events": 41,
     "apps": 3,
     "liv": false,
     "note": "Won the 2026 Irish Open by a record 11 shots; leads the European points list",
     "points": 271.9,
     "points_source": "official",
-    "p_team": 0.8514,
-    "p_auto": 0.6567,
-    "p_pick": 0.1946,
+    "p_team": 0.8525,
+    "p_auto": 0.663,
+    "p_pick": 0.1895,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": 1.1217,
+     "score": 1.1271,
      "components": {
-      "form": 0.468,
+      "form": 0.463,
       "rank": 0.264,
       "points": 0.731,
       "experience": 0.6,
@@ -1331,20 +1330,20 @@
      },
      "points_share": 0.731,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.01805,
-     "birdie": 0.25016,
-     "par": 0.5579,
-     "bogey": 0.14391,
-     "dbl": 0.02998
+     "eagle": 0.01798,
+     "birdie": 0.24995,
+     "par": 0.55803,
+     "bogey": 0.14403,
+     "dbl": 0.03001
     }
    },
    {
@@ -1353,9 +1352,9 @@
     "espn_id": "6970",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/6970.png",
     "country": "England",
-    "owgr_rank": 127,
-    "rating": 0.487,
-    "prior": 0.299,
+    "owgr_rank": 124,
+    "rating": 0.475,
+    "prior": 0.286,
     "momentum": 0.0,
     "n_events": 2,
     "apps": 0,
@@ -1363,36 +1362,36 @@
     "note": "Won the 2026 British Masters; 2nd on the European points list",
     "points": 265.7,
     "points_source": "official",
-    "p_team": 0.6382,
-    "p_auto": 0.6382,
+    "p_team": 0.6438,
+    "p_auto": 0.6438,
     "p_pick": 0.0,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": -0.3035,
+     "score": -0.2679,
      "components": {
-      "form": -0.487,
-      "rank": -0.299,
+      "form": -0.475,
+      "rank": -0.286,
       "points": 0.714,
       "experience": 0.0,
       "momentum": -0.0
      },
      "points_share": 0.714,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.00571,
-     "birdie": 0.20904,
-     "par": 0.58258,
-     "bogey": 0.16653,
-     "dbl": 0.03614
+     "eagle": 0.00586,
+     "birdie": 0.20955,
+     "par": 0.58227,
+     "bogey": 0.16625,
+     "dbl": 0.03607
     }
    },
    {
@@ -1402,24 +1401,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/569.png",
     "country": "England",
     "owgr_rank": 21,
-    "rating": -0.484,
+    "rating": -0.539,
     "prior": -0.6,
     "momentum": 0.588,
-    "n_events": 41,
+    "n_events": 43,
     "apps": 6,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.4782,
-    "p_auto": 0.064,
-    "p_pick": 0.4142,
+    "p_team": 0.5245,
+    "p_auto": 0.0645,
+    "p_pick": 0.46,
     "projected_auto": false,
     "projected_pick": true,
     "selection": {
-     "score": 0.9524,
+     "score": 0.998,
      "components": {
-      "form": 0.484,
+      "form": 0.539,
       "rank": 0.6,
       "points": 0.0,
       "experience": 1.0,
@@ -1427,164 +1426,20 @@
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.01826,
-     "birdie": 0.25087,
-     "par": 0.55748,
-     "bogey": 0.14352,
-     "dbl": 0.02987
-    }
-   },
-   {
-    "name": "Alex Noren",
-    "team": "EUR",
-    "espn_id": "3832",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/3832.png",
-    "country": "Sweden",
-    "owgr_rank": 24,
-    "rating": -0.6,
-    "prior": -0.54,
-    "momentum": 0.0,
-    "n_events": 48,
-    "apps": 1,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.3654,
-    "p_auto": 0.0603,
-    "p_pick": 0.3051,
-    "projected_auto": false,
-    "projected_pick": false,
-    "selection": {
-     "score": 0.9767,
-     "components": {
-      "form": 0.6,
-      "rank": 0.54,
-      "points": 0.0,
-      "experience": 0.2,
-      "momentum": -0.0
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
-      "experience": 0.25,
-      "momentum": 0.272
-     }
-    },
-    "seed": true,
-    "hole_dist": {
-     "eagle": 0.01976,
-     "birdie": 0.25586,
-     "par": 0.55448,
-     "bogey": 0.14078,
-     "dbl": 0.02912
-    }
-   },
-   {
-    "name": "Jacob Skov Olesen",
-    "team": "EUR",
-    "espn_id": "5217198",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5217198.png",
-    "country": "Denmark",
-    "owgr_rank": 87,
-    "rating": -0.404,
-    "prior": 0.097,
-    "momentum": 0.0,
-    "n_events": 5,
-    "apps": 0,
-    "liv": false,
-    "note": null,
-    "points": 141.0,
-    "points_source": "official",
-    "p_team": 0.2973,
-    "p_auto": 0.2828,
-    "p_pick": 0.0144,
-    "projected_auto": true,
-    "projected_pick": false,
-    "selection": {
-     "score": 0.4884,
-     "components": {
-      "form": 0.404,
-      "rank": -0.097,
-      "points": 0.379,
-      "experience": 0.0,
-      "momentum": -0.0
-     },
-     "points_share": 0.379,
-     "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
-      "experience": 0.25,
-      "momentum": 0.272
-     }
-    },
-    "seed": true,
-    "hole_dist": {
-     "eagle": 0.01722,
-     "birdie": 0.24739,
-     "par": 0.55957,
-     "bogey": 0.14544,
-     "dbl": 0.03039
-    }
-   },
-   {
-    "name": "Jordan Smith",
-    "team": "EUR",
-    "espn_id": "9506",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9506.png",
-    "country": "England",
-    "owgr_rank": 68,
-    "rating": -0.559,
-    "prior": -0.036,
-    "momentum": -1.495,
-    "n_events": 49,
-    "apps": 0,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.2938,
-    "p_auto": 0.0566,
-    "p_pick": 0.2372,
-    "projected_auto": false,
-    "projected_pick": false,
-    "selection": {
-     "score": 0.9441,
-     "components": {
-      "form": 0.559,
-      "rank": 0.036,
-      "points": 0.0,
-      "experience": 0.0,
-      "momentum": 1.495
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
-      "experience": 0.25,
-      "momentum": 0.272
-     }
-    },
-    "seed": true,
-    "hole_dist": {
-     "eagle": 0.01923,
-     "birdie": 0.25409,
-     "par": 0.55555,
-     "bogey": 0.14175,
-     "dbl": 0.02939
+     "eagle": 0.01896,
+     "birdie": 0.2532,
+     "par": 0.55608,
+     "bogey": 0.14224,
+     "dbl": 0.02952
     }
    },
    {
@@ -1594,24 +1449,24 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/10906.png",
     "country": "England",
     "owgr_rank": 17,
-    "rating": -0.377,
+    "rating": -0.435,
     "prior": -0.728,
     "momentum": 0.0,
-    "n_events": 39,
+    "n_events": 41,
     "apps": 1,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.2925,
-    "p_auto": 0.059,
-    "p_pick": 0.2336,
+    "p_team": 0.3322,
+    "p_auto": 0.0587,
+    "p_pick": 0.2735,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 0.9032,
+     "score": 0.9516,
      "components": {
-      "form": 0.377,
+      "form": 0.435,
       "rank": 0.728,
       "points": 0.0,
       "experience": 0.2,
@@ -1619,20 +1474,116 @@
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.01687,
-     "birdie": 0.24624,
-     "par": 0.56026,
-     "bogey": 0.14607,
-     "dbl": 0.03056
+     "eagle": 0.01762,
+     "birdie": 0.24875,
+     "par": 0.55875,
+     "bogey": 0.14469,
+     "dbl": 0.03019
+    }
+   },
+   {
+    "name": "Alex Noren",
+    "team": "EUR",
+    "espn_id": "3832",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/3832.png",
+    "country": "Sweden",
+    "owgr_rank": 24,
+    "rating": -0.546,
+    "prior": -0.54,
+    "momentum": 0.0,
+    "n_events": 50,
+    "apps": 1,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.2989,
+    "p_auto": 0.0599,
+    "p_pick": 0.2389,
+    "projected_auto": false,
+    "projected_pick": false,
+    "selection": {
+     "score": 0.9221,
+     "components": {
+      "form": 0.546,
+      "rank": 0.54,
+      "points": 0.0,
+      "experience": 0.2,
+      "momentum": -0.0
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
+      "experience": 0.25,
+      "momentum": 0.271
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.01905,
+     "birdie": 0.2535,
+     "par": 0.5559,
+     "bogey": 0.14207,
+     "dbl": 0.02947
+    }
+   },
+   {
+    "name": "Jacob Skov Olesen",
+    "team": "EUR",
+    "espn_id": "5217198",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/5217198.png",
+    "country": "Denmark",
+    "owgr_rank": 88,
+    "rating": -0.396,
+    "prior": 0.103,
+    "momentum": 0.0,
+    "n_events": 5,
+    "apps": 0,
+    "liv": false,
+    "note": null,
+    "points": 141.0,
+    "points_source": "official",
+    "p_team": 0.2972,
+    "p_auto": 0.2855,
+    "p_pick": 0.0118,
+    "projected_auto": true,
+    "projected_pick": false,
+    "selection": {
+     "score": 0.4824,
+     "components": {
+      "form": 0.396,
+      "rank": -0.103,
+      "points": 0.379,
+      "experience": 0.0,
+      "momentum": -0.0
+     },
+     "points_share": 0.379,
+     "weights": {
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
+      "experience": 0.25,
+      "momentum": 0.271
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.01712,
+     "birdie": 0.24705,
+     "par": 0.55977,
+     "bogey": 0.14562,
+     "dbl": 0.03044
     }
    },
    {
@@ -1641,9 +1592,9 @@
     "espn_id": "7541",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/7541.png",
     "country": "Spain",
-    "owgr_rank": 184,
-    "rating": -0.046,
-    "prior": 0.468,
+    "owgr_rank": 188,
+    "rating": -0.036,
+    "prior": 0.476,
     "momentum": 0.0,
     "n_events": 5,
     "apps": 0,
@@ -1651,36 +1602,84 @@
     "note": null,
     "points": 141.2,
     "points_source": "official",
-    "p_team": 0.2853,
-    "p_auto": 0.2853,
-    "p_pick": 0.0,
+    "p_team": 0.2889,
+    "p_auto": 0.2888,
+    "p_pick": 0.0001,
     "projected_auto": true,
     "projected_pick": false,
     "selection": {
-     "score": -0.0984,
+     "score": -0.1045,
      "components": {
-      "form": 0.046,
-      "rank": -0.468,
+      "form": 0.036,
+      "rank": -0.476,
       "points": 0.38,
       "experience": 0.0,
       "momentum": -0.0
      },
      "points_share": 0.38,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.01259,
-     "birdie": 0.23197,
-     "par": 0.56882,
-     "bogey": 0.15392,
-     "dbl": 0.0327
+     "eagle": 0.01246,
+     "birdie": 0.23153,
+     "par": 0.56908,
+     "bogey": 0.15416,
+     "dbl": 0.03277
+    }
+   },
+   {
+    "name": "Jordan Smith",
+    "team": "EUR",
+    "espn_id": "9506",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/9506.png",
+    "country": "England",
+    "owgr_rank": 67,
+    "rating": -0.559,
+    "prior": -0.044,
+    "momentum": -1.495,
+    "n_events": 49,
+    "apps": 0,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.2837,
+    "p_auto": 0.0565,
+    "p_pick": 0.2273,
+    "projected_auto": false,
+    "projected_pick": false,
+    "selection": {
+     "score": 0.9457,
+     "components": {
+      "form": 0.559,
+      "rank": 0.044,
+      "points": 0.0,
+      "experience": 0.0,
+      "momentum": 1.495
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
+      "experience": 0.25,
+      "momentum": 0.271
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.01923,
+     "birdie": 0.2541,
+     "par": 0.55554,
+     "bogey": 0.14175,
+     "dbl": 0.02939
     }
    },
    {
@@ -1690,7 +1689,7 @@
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/7169.png",
     "country": "Spain",
     "owgr_rank": 117,
-    "rating": 0.481,
+    "rating": 0.48,
     "prior": 0.255,
     "momentum": 0.0,
     "n_events": 4,
@@ -1699,15 +1698,15 @@
     "note": null,
     "points": 135.6,
     "points_source": "official",
-    "p_team": 0.2703,
-    "p_auto": 0.2703,
+    "p_team": 0.2738,
+    "p_auto": 0.2738,
     "p_pick": 0.0001,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": -0.4399,
+     "score": -0.429,
      "components": {
-      "form": -0.481,
+      "form": -0.48,
       "rank": -0.255,
       "points": 0.365,
       "experience": 0.0,
@@ -1715,68 +1714,20 @@
      },
      "points_share": 0.365,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.00578,
-     "birdie": 0.20926,
-     "par": 0.58244,
-     "bogey": 0.16641,
-     "dbl": 0.03611
-    }
-   },
-   {
-    "name": "Harry Hall",
-    "team": "EUR",
-    "espn_id": "4589438",
-    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/4589438.png",
-    "country": "England",
-    "owgr_rank": 71,
-    "rating": -0.387,
-    "prior": -0.012,
-    "momentum": -1.32,
-    "n_events": 57,
-    "apps": 0,
-    "liv": false,
-    "note": null,
-    "points": 0.0,
-    "points_source": "none",
-    "p_team": 0.1329,
-    "p_auto": 0.0609,
-    "p_pick": 0.0721,
-    "projected_auto": false,
-    "projected_pick": false,
-    "selection": {
-     "score": 0.7224,
-     "components": {
-      "form": 0.387,
-      "rank": 0.012,
-      "points": 0.0,
-      "experience": 0.0,
-      "momentum": 1.32
-     },
-     "points_share": 0.0,
-     "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
-      "experience": 0.25,
-      "momentum": 0.272
-     }
-    },
-    "seed": true,
-    "hole_dist": {
-     "eagle": 0.017,
-     "birdie": 0.24668,
-     "par": 0.55999,
-     "bogey": 0.14583,
-     "dbl": 0.0305
+     "eagle": 0.0058,
+     "birdie": 0.20933,
+     "par": 0.5824,
+     "bogey": 0.16637,
+     "dbl": 0.0361
     }
    },
    {
@@ -1785,46 +1736,94 @@
     "espn_id": "11250",
     "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/11250.png",
     "country": "Denmark",
-    "owgr_rank": 47,
-    "rating": -0.403,
-    "prior": -0.216,
+    "owgr_rank": 46,
+    "rating": -0.387,
+    "prior": -0.228,
     "momentum": 0.0,
-    "n_events": 47,
+    "n_events": 49,
     "apps": 2,
     "liv": false,
     "note": null,
     "points": 0.0,
     "points_source": "none",
-    "p_team": 0.13,
-    "p_auto": 0.0616,
-    "p_pick": 0.0684,
+    "p_team": 0.1219,
+    "p_auto": 0.0617,
+    "p_pick": 0.0602,
     "projected_auto": false,
     "projected_pick": false,
     "selection": {
-     "score": 0.6201,
+     "score": 0.6109,
      "components": {
-      "form": 0.403,
-      "rank": 0.216,
+      "form": 0.387,
+      "rank": 0.228,
       "points": 0.0,
       "experience": 0.4,
       "momentum": -0.0
      },
      "points_share": 0.0,
      "weights": {
-      "form": 0.916,
-      "rank": 0.698,
-      "points": 0.491,
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
       "experience": 0.25,
-      "momentum": 0.272
+      "momentum": 0.271
      }
     },
     "seed": true,
     "hole_dist": {
-     "eagle": 0.01721,
-     "birdie": 0.24737,
-     "par": 0.55958,
-     "bogey": 0.14545,
-     "dbl": 0.03039
+     "eagle": 0.017,
+     "birdie": 0.24666,
+     "par": 0.56,
+     "bogey": 0.14584,
+     "dbl": 0.0305
+    }
+   },
+   {
+    "name": "Robert MacIntyre",
+    "team": "EUR",
+    "espn_id": "11378",
+    "headshot": "https://a.espncdn.com/i/headshots/golf/players/full/11378.png",
+    "country": "Scotland",
+    "owgr_rank": 19,
+    "rating": -0.497,
+    "prior": -0.656,
+    "momentum": 2.338,
+    "n_events": 51,
+    "apps": 2,
+    "liv": false,
+    "note": null,
+    "points": 0.0,
+    "points_source": "none",
+    "p_team": 0.1144,
+    "p_auto": 0.0587,
+    "p_pick": 0.0558,
+    "projected_auto": false,
+    "projected_pick": false,
+    "selection": {
+     "score": 0.6021,
+     "components": {
+      "form": 0.497,
+      "rank": 0.656,
+      "points": 0.0,
+      "experience": 0.4,
+      "momentum": -1.5
+     },
+     "points_share": 0.0,
+     "weights": {
+      "form": 0.912,
+      "rank": 0.693,
+      "points": 0.508,
+      "experience": 0.25,
+      "momentum": 0.271
+     }
+    },
+    "seed": true,
+    "hole_dist": {
+     "eagle": 0.01843,
+     "birdie": 0.25142,
+     "par": 0.55715,
+     "bogey": 0.14322,
+     "dbl": 0.02979
     }
    }
   ]
@@ -1835,18 +1834,18 @@
    "projected_auto": [
     "Scottie Scheffler",
     "J.J. Spaun",
-    "Cameron Young",
     "Xander Schauffele",
     "Collin Morikawa",
+    "Cameron Young",
     "Chris Gotterup"
    ],
    "projected_picks": [
-    "Russell Henley",
-    "Jacob Bridgeman",
     "Sam Burns",
+    "Jacob Bridgeman",
+    "Russell Henley",
     "Patrick Reed",
     "Michael Brennan",
-    "Ben James"
+    "Wyndham Clark"
    ]
   },
   "EUR": {
@@ -1873,16 +1872,16 @@
   "us": [
    "Scottie Scheffler",
    "J.J. Spaun",
-   "Cameron Young",
    "Xander Schauffele",
    "Collin Morikawa",
+   "Cameron Young",
    "Chris Gotterup",
-   "Russell Henley",
-   "Jacob Bridgeman",
    "Sam Burns",
+   "Jacob Bridgeman",
+   "Russell Henley",
    "Patrick Reed",
    "Michael Brennan",
-   "Ben James"
+   "Wyndham Clark"
   ],
   "eu": [
    "Rory McIlroy",
@@ -1901,746 +1900,746 @@
   "cells": [
    [
     {
-     "w": 0.6498,
+     "w": 0.6538,
      "x": 0.112,
-     "l": 0.3502
+     "l": 0.3462
     },
     {
-     "w": 0.6832,
-     "x": 0.1017,
-     "l": 0.3168
+     "w": 0.6801,
+     "x": 0.1014,
+     "l": 0.3199
     },
     {
-     "w": 0.7586,
-     "x": 0.094,
-     "l": 0.2414
+     "w": 0.7622,
+     "x": 0.0897,
+     "l": 0.2378
     },
     {
-     "w": 0.8628,
-     "x": 0.0638,
-     "l": 0.1372
+     "w": 0.8593,
+     "x": 0.0663,
+     "l": 0.1407
     },
     {
-     "w": 0.7705,
-     "x": 0.0943,
-     "l": 0.2295
+     "w": 0.7733,
+     "x": 0.0938,
+     "l": 0.2267
     },
     {
-     "w": 0.8087,
-     "x": 0.0788,
-     "l": 0.1913
+     "w": 0.8137,
+     "x": 0.0783,
+     "l": 0.1863
     },
     {
-     "w": 0.6765,
-     "x": 0.1095,
-     "l": 0.3235
+     "w": 0.6759,
+     "x": 0.1047,
+     "l": 0.3241
     },
     {
-     "w": 0.694,
+     "w": 0.7048,
+     "x": 0.1012,
+     "l": 0.2952
+    },
+    {
+     "w": 0.683,
      "x": 0.1061,
-     "l": 0.306
+     "l": 0.317
     },
     {
-     "w": 0.6807,
-     "x": 0.1049,
-     "l": 0.3193
+     "w": 0.7418,
+     "x": 0.1002,
+     "l": 0.2582
     },
     {
-     "w": 0.7423,
-     "x": 0.1036,
-     "l": 0.2577
-    },
-    {
-     "w": 0.7019,
-     "x": 0.1052,
-     "l": 0.2981
+     "w": 0.6885,
+     "x": 0.104,
+     "l": 0.3115
     },
     {
      "w": 0.7598,
-     "x": 0.0958,
+     "x": 0.0938,
      "l": 0.2402
     }
    ],
    [
     {
-     "w": 0.5064,
-     "x": 0.1153,
-     "l": 0.4936
+     "w": 0.4997,
+     "x": 0.12,
+     "l": 0.5003
     },
     {
-     "w": 0.5446,
-     "x": 0.1197,
-     "l": 0.4554
+     "w": 0.5222,
+     "x": 0.1177,
+     "l": 0.4778
     },
     {
-     "w": 0.6402,
-     "x": 0.1126,
-     "l": 0.3598
+     "w": 0.6326,
+     "x": 0.1133,
+     "l": 0.3674
     },
     {
-     "w": 0.7753,
-     "x": 0.0933,
-     "l": 0.2247
+     "w": 0.7711,
+     "x": 0.0907,
+     "l": 0.2289
     },
     {
-     "w": 0.6507,
-     "x": 0.1095,
-     "l": 0.3493
+     "w": 0.6473,
+     "x": 0.1036,
+     "l": 0.3527
     },
     {
-     "w": 0.6951,
-     "x": 0.1079,
-     "l": 0.3049
+     "w": 0.6937,
+     "x": 0.1093,
+     "l": 0.3063
     },
     {
-     "w": 0.5341,
-     "x": 0.1192,
-     "l": 0.4659
+     "w": 0.5282,
+     "x": 0.1169,
+     "l": 0.4718
     },
     {
-     "w": 0.568,
-     "x": 0.1174,
-     "l": 0.432
+     "w": 0.5683,
+     "x": 0.1183,
+     "l": 0.4317
     },
     {
-     "w": 0.5464,
-     "x": 0.1267,
-     "l": 0.4536
+     "w": 0.5489,
+     "x": 0.1148,
+     "l": 0.4511
     },
     {
-     "w": 0.6228,
-     "x": 0.1153,
-     "l": 0.3772
+     "w": 0.6092,
+     "x": 0.1155,
+     "l": 0.3908
     },
     {
-     "w": 0.5634,
-     "x": 0.1205,
-     "l": 0.4366
+     "w": 0.5435,
+     "x": 0.1216,
+     "l": 0.4565
     },
     {
-     "w": 0.6316,
-     "x": 0.1126,
-     "l": 0.3684
-    }
-   ],
-   [
-    {
-     "w": 0.4782,
-     "x": 0.1131,
-     "l": 0.5218
-    },
-    {
-     "w": 0.5087,
-     "x": 0.1175,
-     "l": 0.4913
-    },
-    {
-     "w": 0.6055,
-     "x": 0.1106,
-     "l": 0.3945
-    },
-    {
-     "w": 0.7409,
-     "x": 0.099,
-     "l": 0.2591
-    },
-    {
-     "w": 0.6152,
-     "x": 0.1143,
-     "l": 0.3848
-    },
-    {
-     "w": 0.6627,
-     "x": 0.1109,
-     "l": 0.3373
-    },
-    {
-     "w": 0.5016,
-     "x": 0.1178,
-     "l": 0.4984
-    },
-    {
-     "w": 0.5305,
-     "x": 0.1203,
-     "l": 0.4695
-    },
-    {
-     "w": 0.5194,
-     "x": 0.1204,
-     "l": 0.4806
-    },
-    {
-     "w": 0.577,
-     "x": 0.1163,
-     "l": 0.423
-    },
-    {
-     "w": 0.5304,
-     "x": 0.1149,
-     "l": 0.4696
-    },
-    {
-     "w": 0.6079,
-     "x": 0.1156,
-     "l": 0.3921
-    }
-   ],
-   [
-    {
-     "w": 0.4644,
-     "x": 0.1146,
-     "l": 0.5356
-    },
-    {
-     "w": 0.5011,
-     "x": 0.1197,
-     "l": 0.4989
-    },
-    {
-     "w": 0.5982,
-     "x": 0.1132,
-     "l": 0.4018
-    },
-    {
-     "w": 0.7304,
-     "x": 0.0996,
-     "l": 0.2696
-    },
-    {
-     "w": 0.6088,
-     "x": 0.1158,
-     "l": 0.3912
-    },
-    {
-     "w": 0.6634,
-     "x": 0.1089,
-     "l": 0.3366
-    },
-    {
-     "w": 0.4866,
-     "x": 0.122,
-     "l": 0.5134
-    },
-    {
-     "w": 0.5273,
-     "x": 0.1203,
-     "l": 0.4727
-    },
-    {
-     "w": 0.5033,
-     "x": 0.1224,
-     "l": 0.4967
-    },
-    {
-     "w": 0.5788,
-     "x": 0.119,
-     "l": 0.4212
-    },
-    {
-     "w": 0.5308,
+     "w": 0.6167,
      "x": 0.1147,
-     "l": 0.4692
-    },
-    {
-     "w": 0.5996,
-     "x": 0.116,
-     "l": 0.4004
+     "l": 0.3833
     }
    ],
    [
     {
-     "w": 0.5208,
-     "x": 0.1196,
-     "l": 0.4792
+     "w": 0.4683,
+     "x": 0.1233,
+     "l": 0.5317
     },
     {
-     "w": 0.5667,
-     "x": 0.1186,
-     "l": 0.4333
+     "w": 0.4937,
+     "x": 0.1146,
+     "l": 0.5063
     },
     {
-     "w": 0.657,
-     "x": 0.1058,
-     "l": 0.343
+     "w": 0.5965,
+     "x": 0.1138,
+     "l": 0.4035
     },
     {
-     "w": 0.7808,
-     "x": 0.0917,
-     "l": 0.2192
+     "w": 0.7322,
+     "x": 0.102,
+     "l": 0.2678
     },
     {
-     "w": 0.6661,
-     "x": 0.112,
-     "l": 0.3339
+     "w": 0.6058,
+     "x": 0.1177,
+     "l": 0.3942
     },
     {
-     "w": 0.7103,
-     "x": 0.1007,
-     "l": 0.2897
+     "w": 0.6535,
+     "x": 0.107,
+     "l": 0.3465
     },
     {
-     "w": 0.5517,
-     "x": 0.1189,
-     "l": 0.4483
+     "w": 0.491,
+     "x": 0.1172,
+     "l": 0.509
     },
     {
-     "w": 0.5883,
-     "x": 0.1144,
-     "l": 0.4117
+     "w": 0.5284,
+     "x": 0.1225,
+     "l": 0.4716
+    },
+    {
+     "w": 0.5108,
+     "x": 0.1167,
+     "l": 0.4892
+    },
+    {
+     "w": 0.5584,
+     "x": 0.1197,
+     "l": 0.4416
+    },
+    {
+     "w": 0.507,
+     "x": 0.1233,
+     "l": 0.493
+    },
+    {
+     "w": 0.5889,
+     "x": 0.1128,
+     "l": 0.4111
+    }
+   ],
+   [
+    {
+     "w": 0.5298,
+     "x": 0.1217,
+     "l": 0.4702
     },
     {
      "w": 0.57,
-     "x": 0.1129,
+     "x": 0.1219,
      "l": 0.43
     },
     {
-     "w": 0.6338,
-     "x": 0.1123,
-     "l": 0.3662
+     "w": 0.6659,
+     "x": 0.1075,
+     "l": 0.3341
     },
     {
-     "w": 0.5945,
-     "x": 0.1126,
-     "l": 0.4055
+     "w": 0.7821,
+     "x": 0.09,
+     "l": 0.2179
     },
     {
-     "w": 0.6552,
-     "x": 0.1148,
-     "l": 0.3448
-    }
-   ],
-   [
-    {
-     "w": 0.4475,
-     "x": 0.1116,
-     "l": 0.5525
+     "w": 0.6761,
+     "x": 0.1112,
+     "l": 0.3239
     },
     {
-     "w": 0.4867,
-     "x": 0.1152,
-     "l": 0.5133
+     "w": 0.7299,
+     "x": 0.0943,
+     "l": 0.2701
     },
     {
-     "w": 0.5825,
-     "x": 0.1149,
-     "l": 0.4175
+     "w": 0.5548,
+     "x": 0.1219,
+     "l": 0.4452
     },
     {
-     "w": 0.7294,
-     "x": 0.1013,
-     "l": 0.2706
+     "w": 0.6006,
+     "x": 0.1161,
+     "l": 0.3994
     },
     {
-     "w": 0.598,
-     "x": 0.1176,
-     "l": 0.402
+     "w": 0.5792,
+     "x": 0.1174,
+     "l": 0.4208
     },
     {
-     "w": 0.6463,
-     "x": 0.1087,
-     "l": 0.3537
-    },
-    {
-     "w": 0.4836,
-     "x": 0.1242,
-     "l": 0.5164
-    },
-    {
-     "w": 0.5142,
-     "x": 0.1169,
-     "l": 0.4858
-    },
-    {
-     "w": 0.4908,
-     "x": 0.1214,
-     "l": 0.5092
-    },
-    {
-     "w": 0.5607,
-     "x": 0.1179,
-     "l": 0.4393
-    },
-    {
-     "w": 0.52,
-     "x": 0.1148,
-     "l": 0.48
-    },
-    {
-     "w": 0.5863,
-     "x": 0.1213,
-     "l": 0.4137
-    }
-   ],
-   [
-    {
-     "w": 0.4547,
-     "x": 0.1232,
-     "l": 0.5453
-    },
-    {
-     "w": 0.4894,
-     "x": 0.1185,
-     "l": 0.5106
-    },
-    {
-     "w": 0.5947,
-     "x": 0.1167,
-     "l": 0.4053
-    },
-    {
-     "w": 0.7344,
-     "x": 0.0979,
-     "l": 0.2656
-    },
-    {
-     "w": 0.6065,
-     "x": 0.1123,
-     "l": 0.3935
-    },
-    {
-     "w": 0.6603,
-     "x": 0.1113,
-     "l": 0.3397
-    },
-    {
-     "w": 0.4823,
-     "x": 0.1151,
-     "l": 0.5177
-    },
-    {
-     "w": 0.5109,
-     "x": 0.1252,
-     "l": 0.4891
-    },
-    {
-     "w": 0.4914,
-     "x": 0.1172,
-     "l": 0.5086
-    },
-    {
-     "w": 0.5631,
-     "x": 0.1187,
-     "l": 0.4369
-    },
-    {
-     "w": 0.5237,
-     "x": 0.1145,
-     "l": 0.4763
+     "w": 0.6378,
+     "x": 0.1088,
+     "l": 0.3622
     },
     {
      "w": 0.5804,
-     "x": 0.1169,
+     "x": 0.1205,
      "l": 0.4196
+    },
+    {
+     "w": 0.6589,
+     "x": 0.1091,
+     "l": 0.3411
     }
    ],
    [
     {
-     "w": 0.4307,
-     "x": 0.1192,
-     "l": 0.5693
+     "w": 0.4618,
+     "x": 0.1181,
+     "l": 0.5382
     },
     {
-     "w": 0.4739,
-     "x": 0.1202,
-     "l": 0.5261
+     "w": 0.4944,
+     "x": 0.1158,
+     "l": 0.5056
     },
     {
-     "w": 0.569,
-     "x": 0.11,
-     "l": 0.431
+     "w": 0.6008,
+     "x": 0.1182,
+     "l": 0.3992
     },
     {
-     "w": 0.7019,
-     "x": 0.1042,
-     "l": 0.2981
+     "w": 0.7328,
+     "x": 0.0973,
+     "l": 0.2672
     },
     {
-     "w": 0.5699,
-     "x": 0.1202,
-     "l": 0.4301
+     "w": 0.6104,
+     "x": 0.1173,
+     "l": 0.3896
     },
     {
-     "w": 0.6304,
-     "x": 0.11,
-     "l": 0.3696
+     "w": 0.6519,
+     "x": 0.1112,
+     "l": 0.3481
     },
     {
-     "w": 0.4571,
-     "x": 0.1217,
-     "l": 0.5429
-    },
-    {
-     "w": 0.4957,
-     "x": 0.1137,
-     "l": 0.5043
-    },
-    {
-     "w": 0.4663,
-     "x": 0.1187,
-     "l": 0.5337
-    },
-    {
-     "w": 0.5477,
-     "x": 0.1169,
-     "l": 0.4523
-    },
-    {
-     "w": 0.5008,
-     "x": 0.1159,
-     "l": 0.4992
-    },
-    {
-     "w": 0.5688,
-     "x": 0.1167,
-     "l": 0.4312
-    }
-   ],
-   [
-    {
-     "w": 0.4614,
-     "x": 0.1172,
-     "l": 0.5386
-    },
-    {
-     "w": 0.4976,
-     "x": 0.1161,
-     "l": 0.5024
-    },
-    {
-     "w": 0.6053,
-     "x": 0.1109,
-     "l": 0.3947
-    },
-    {
-     "w": 0.7282,
-     "x": 0.1025,
-     "l": 0.2718
-    },
-    {
-     "w": 0.5997,
-     "x": 0.1122,
-     "l": 0.4003
-    },
-    {
-     "w": 0.6636,
-     "x": 0.1105,
-     "l": 0.3364
-    },
-    {
-     "w": 0.4952,
-     "x": 0.1238,
-     "l": 0.5048
-    },
-    {
-     "w": 0.5223,
-     "x": 0.1196,
-     "l": 0.4777
-    },
-    {
-     "w": 0.4994,
-     "x": 0.1143,
-     "l": 0.5006
-    },
-    {
-     "w": 0.5644,
-     "x": 0.1149,
-     "l": 0.4356
-    },
-    {
-     "w": 0.5324,
+     "w": 0.4843,
      "x": 0.1224,
-     "l": 0.4676
+     "l": 0.5157
     },
     {
-     "w": 0.592,
-     "x": 0.1201,
-     "l": 0.408
-    }
-   ],
-   [
-    {
-     "w": 0.4547,
-     "x": 0.1222,
-     "l": 0.5453
+     "w": 0.5383,
+     "x": 0.1162,
+     "l": 0.4617
     },
     {
-     "w": 0.497,
-     "x": 0.1212,
-     "l": 0.503
+     "w": 0.5104,
+     "x": 0.1278,
+     "l": 0.4896
     },
     {
-     "w": 0.5911,
-     "x": 0.1157,
-     "l": 0.4089
-    },
-    {
-     "w": 0.7302,
-     "x": 0.099,
-     "l": 0.2698
-    },
-    {
-     "w": 0.6066,
-     "x": 0.1154,
-     "l": 0.3934
-    },
-    {
-     "w": 0.6559,
-     "x": 0.1052,
-     "l": 0.3441
-    },
-    {
-     "w": 0.4848,
-     "x": 0.1212,
-     "l": 0.5152
-    },
-    {
-     "w": 0.5317,
-     "x": 0.1225,
-     "l": 0.4683
-    },
-    {
-     "w": 0.4967,
-     "x": 0.1138,
-     "l": 0.5033
-    },
-    {
-     "w": 0.5624,
-     "x": 0.1172,
-     "l": 0.4376
-    },
-    {
-     "w": 0.5268,
-     "x": 0.122,
-     "l": 0.4732
-    },
-    {
-     "w": 0.5896,
-     "x": 0.1195,
-     "l": 0.4104
-    }
-   ],
-   [
-    {
-     "w": 0.4118,
-     "x": 0.1174,
-     "l": 0.5882
-    },
-    {
-     "w": 0.4457,
-     "x": 0.1212,
-     "l": 0.5543
-    },
-    {
-     "w": 0.5465,
-     "x": 0.1164,
-     "l": 0.4535
-    },
-    {
-     "w": 0.6902,
-     "x": 0.1071,
-     "l": 0.3098
-    },
-    {
-     "w": 0.5535,
-     "x": 0.1214,
-     "l": 0.4465
-    },
-    {
-     "w": 0.6191,
+     "w": 0.5701,
      "x": 0.1153,
-     "l": 0.3809
+     "l": 0.4299
     },
     {
-     "w": 0.4379,
-     "x": 0.1124,
-     "l": 0.5621
+     "w": 0.515,
+     "x": 0.1177,
+     "l": 0.485
     },
     {
-     "w": 0.4707,
-     "x": 0.1179,
-     "l": 0.5293
-    },
-    {
-     "w": 0.4508,
-     "x": 0.1203,
-     "l": 0.5492
-    },
-    {
-     "w": 0.5212,
-     "x": 0.1184,
-     "l": 0.4788
-    },
-    {
-     "w": 0.4674,
-     "x": 0.1166,
-     "l": 0.5326
-    },
-    {
-     "w": 0.5384,
-     "x": 0.1184,
-     "l": 0.4616
+     "w": 0.5861,
+     "x": 0.1198,
+     "l": 0.4139
     }
    ],
    [
     {
-     "w": 0.492,
-     "x": 0.1109,
-     "l": 0.508
+     "w": 0.4426,
+     "x": 0.1191,
+     "l": 0.5574
     },
     {
-     "w": 0.5213,
+     "w": 0.4776,
+     "x": 0.12,
+     "l": 0.5224
+    },
+    {
+     "w": 0.5802,
+     "x": 0.1179,
+     "l": 0.4198
+    },
+    {
+     "w": 0.7224,
+     "x": 0.0998,
+     "l": 0.2776
+    },
+    {
+     "w": 0.5959,
+     "x": 0.1128,
+     "l": 0.4041
+    },
+    {
+     "w": 0.6431,
+     "x": 0.111,
+     "l": 0.3569
+    },
+    {
+     "w": 0.4763,
+     "x": 0.1203,
+     "l": 0.5237
+    },
+    {
+     "w": 0.5174,
+     "x": 0.1168,
+     "l": 0.4826
+    },
+    {
+     "w": 0.4903,
+     "x": 0.1245,
+     "l": 0.5097
+    },
+    {
+     "w": 0.5486,
+     "x": 0.1176,
+     "l": 0.4514
+    },
+    {
+     "w": 0.4983,
+     "x": 0.1209,
+     "l": 0.5017
+    },
+    {
+     "w": 0.5706,
+     "x": 0.1222,
+     "l": 0.4294
+    }
+   ],
+   [
+    {
+     "w": 0.4716,
+     "x": 0.1154,
+     "l": 0.5284
+    },
+    {
+     "w": 0.5055,
+     "x": 0.1175,
+     "l": 0.4945
+    },
+    {
+     "w": 0.6132,
+     "x": 0.1118,
+     "l": 0.3868
+    },
+    {
+     "w": 0.7458,
+     "x": 0.0951,
+     "l": 0.2542
+    },
+    {
+     "w": 0.6261,
+     "x": 0.1139,
+     "l": 0.3739
+    },
+    {
+     "w": 0.6826,
+     "x": 0.11,
+     "l": 0.3174
+    },
+    {
+     "w": 0.4986,
+     "x": 0.1203,
+     "l": 0.5014
+    },
+    {
+     "w": 0.5376,
+     "x": 0.1203,
+     "l": 0.4624
+    },
+    {
+     "w": 0.5171,
+     "x": 0.1186,
+     "l": 0.4829
+    },
+    {
+     "w": 0.5849,
+     "x": 0.1134,
+     "l": 0.4151
+    },
+    {
+     "w": 0.5267,
+     "x": 0.1185,
+     "l": 0.4733
+    },
+    {
+     "w": 0.595,
+     "x": 0.1154,
+     "l": 0.405
+    }
+   ],
+   [
+    {
+     "w": 0.4272,
+     "x": 0.1185,
+     "l": 0.5728
+    },
+    {
+     "w": 0.4549,
+     "x": 0.1161,
+     "l": 0.5451
+    },
+    {
+     "w": 0.5638,
+     "x": 0.1198,
+     "l": 0.4362
+    },
+    {
+     "w": 0.7017,
+     "x": 0.1038,
+     "l": 0.2983
+    },
+    {
+     "w": 0.5753,
+     "x": 0.1144,
+     "l": 0.4247
+    },
+    {
+     "w": 0.6339,
+     "x": 0.1154,
+     "l": 0.3661
+    },
+    {
+     "w": 0.4555,
+     "x": 0.1229,
+     "l": 0.5445
+    },
+    {
+     "w": 0.5002,
+     "x": 0.1208,
+     "l": 0.4998
+    },
+    {
+     "w": 0.4673,
+     "x": 0.1154,
+     "l": 0.5327
+    },
+    {
+     "w": 0.5372,
+     "x": 0.1249,
+     "l": 0.4628
+    },
+    {
+     "w": 0.4827,
      "x": 0.1207,
-     "l": 0.4787
+     "l": 0.5173
     },
     {
-     "w": 0.6212,
-     "x": 0.1117,
-     "l": 0.3788
+     "w": 0.5542,
+     "x": 0.1197,
+     "l": 0.4458
+    }
+   ],
+   [
+    {
+     "w": 0.4435,
+     "x": 0.1144,
+     "l": 0.5565
     },
     {
-     "w": 0.7519,
-     "x": 0.0969,
-     "l": 0.2481
+     "w": 0.4748,
+     "x": 0.1163,
+     "l": 0.5252
     },
     {
-     "w": 0.626,
-     "x": 0.108,
-     "l": 0.374
+     "w": 0.5819,
+     "x": 0.1163,
+     "l": 0.4181
     },
     {
-     "w": 0.6796,
-     "x": 0.1081,
-     "l": 0.3204
+     "w": 0.7143,
+     "x": 0.1016,
+     "l": 0.2857
     },
     {
-     "w": 0.5079,
-     "x": 0.1193,
-     "l": 0.4921
+     "w": 0.5873,
+     "x": 0.115,
+     "l": 0.4127
     },
     {
-     "w": 0.5493,
-     "x": 0.1177,
-     "l": 0.4507
+     "w": 0.6488,
+     "x": 0.1128,
+     "l": 0.3512
     },
     {
-     "w": 0.5258,
-     "x": 0.1195,
-     "l": 0.4742
+     "w": 0.4666,
+     "x": 0.1154,
+     "l": 0.5334
     },
     {
-     "w": 0.5913,
-     "x": 0.1113,
-     "l": 0.4087
+     "w": 0.5128,
+     "x": 0.1212,
+     "l": 0.4872
     },
     {
-     "w": 0.5523,
-     "x": 0.1177,
-     "l": 0.4477
+     "w": 0.4888,
+     "x": 0.1161,
+     "l": 0.5112
     },
     {
-     "w": 0.6068,
-     "x": 0.1164,
-     "l": 0.3932
+     "w": 0.5445,
+     "x": 0.119,
+     "l": 0.4555
+    },
+    {
+     "w": 0.4922,
+     "x": 0.1248,
+     "l": 0.5078
+    },
+    {
+     "w": 0.5659,
+     "x": 0.1197,
+     "l": 0.4341
+    }
+   ],
+   [
+    {
+     "w": 0.4507,
+     "x": 0.1178,
+     "l": 0.5493
+    },
+    {
+     "w": 0.4898,
+     "x": 0.1151,
+     "l": 0.5102
+    },
+    {
+     "w": 0.5808,
+     "x": 0.1179,
+     "l": 0.4192
+    },
+    {
+     "w": 0.725,
+     "x": 0.1027,
+     "l": 0.275
+    },
+    {
+     "w": 0.5952,
+     "x": 0.1158,
+     "l": 0.4048
+    },
+    {
+     "w": 0.6551,
+     "x": 0.1144,
+     "l": 0.3449
+    },
+    {
+     "w": 0.4771,
+     "x": 0.124,
+     "l": 0.5229
+    },
+    {
+     "w": 0.5277,
+     "x": 0.1172,
+     "l": 0.4723
+    },
+    {
+     "w": 0.4969,
+     "x": 0.1187,
+     "l": 0.5031
+    },
+    {
+     "w": 0.5593,
+     "x": 0.1166,
+     "l": 0.4407
+    },
+    {
+     "w": 0.5076,
+     "x": 0.1232,
+     "l": 0.4924
+    },
+    {
+     "w": 0.5753,
+     "x": 0.1139,
+     "l": 0.4247
+    }
+   ],
+   [
+    {
+     "w": 0.4062,
+     "x": 0.1109,
+     "l": 0.5938
+    },
+    {
+     "w": 0.4418,
+     "x": 0.1263,
+     "l": 0.5582
+    },
+    {
+     "w": 0.5454,
+     "x": 0.116,
+     "l": 0.4546
+    },
+    {
+     "w": 0.6893,
+     "x": 0.1048,
+     "l": 0.3107
+    },
+    {
+     "w": 0.5559,
+     "x": 0.1171,
+     "l": 0.4441
+    },
+    {
+     "w": 0.6156,
+     "x": 0.112,
+     "l": 0.3844
+    },
+    {
+     "w": 0.4294,
+     "x": 0.1168,
+     "l": 0.5706
+    },
+    {
+     "w": 0.4793,
+     "x": 0.1171,
+     "l": 0.5207
+    },
+    {
+     "w": 0.4517,
+     "x": 0.1185,
+     "l": 0.5483
+    },
+    {
+     "w": 0.5098,
+     "x": 0.1148,
+     "l": 0.4902
+    },
+    {
+     "w": 0.4512,
+     "x": 0.1232,
+     "l": 0.5488
+    },
+    {
+     "w": 0.536,
+     "x": 0.1228,
+     "l": 0.464
+    }
+   ],
+   [
+    {
+     "w": 0.4323,
+     "x": 0.1207,
+     "l": 0.5677
+    },
+    {
+     "w": 0.4605,
+     "x": 0.127,
+     "l": 0.5395
+    },
+    {
+     "w": 0.5673,
+     "x": 0.1121,
+     "l": 0.4327
+    },
+    {
+     "w": 0.7003,
+     "x": 0.1022,
+     "l": 0.2997
+    },
+    {
+     "w": 0.5668,
+     "x": 0.1166,
+     "l": 0.4332
+    },
+    {
+     "w": 0.6288,
+     "x": 0.1132,
+     "l": 0.3712
+    },
+    {
+     "w": 0.4412,
+     "x": 0.1184,
+     "l": 0.5588
+    },
+    {
+     "w": 0.4975,
+     "x": 0.1184,
+     "l": 0.5025
+    },
+    {
+     "w": 0.4728,
+     "x": 0.1184,
+     "l": 0.5272
+    },
+    {
+     "w": 0.5277,
+     "x": 0.1168,
+     "l": 0.4723
+    },
+    {
+     "w": 0.4774,
+     "x": 0.1225,
+     "l": 0.5226
+    },
+    {
+     "w": 0.549,
+     "x": 0.1185,
+     "l": 0.451
     }
    ]
   ]
@@ -2649,388 +2648,388 @@
   "us_board": [
    {
     "us": "Scottie Scheffler",
-    "eu": "Tommy Fleetwood",
-    "p_us_win": 0.6765
+    "eu": "Rory McIlroy",
+    "p_us_win": 0.6538333333333334
    },
    {
     "us": "J.J. Spaun",
-    "eu": "Viktor Hovland",
-    "p_us_win": 0.6228333333333333
-   },
-   {
-    "us": "Cameron Young",
     "eu": "Ludvig \u00c5berg",
-    "p_us_win": 0.5194166666666666
+    "p_us_win": 0.5489166666666667
    },
    {
     "us": "Xander Schauffele",
     "eu": "Justin Rose",
-    "p_us_win": 0.5995833333333334
+    "p_us_win": 0.5889166666666666
    },
    {
     "us": "Collin Morikawa",
-    "eu": "Tyrrell Hatton",
-    "p_us_win": 0.5945
+    "eu": "Matt Fitzpatrick",
+    "p_us_win": 0.57
+   },
+   {
+    "us": "Cameron Young",
+    "eu": "Jon Rahm",
+    "p_us_win": 0.5383333333333333
    },
    {
     "us": "Chris Gotterup",
-    "eu": "Joe Dean",
-    "p_us_win": 0.7294166666666667
-   },
-   {
-    "us": "Russell Henley",
-    "eu": "Jacob Skov Olesen",
-    "p_us_win": 0.6065
-   },
-   {
-    "us": "Jacob Bridgeman",
-    "eu": "Matt Fitzpatrick",
-    "p_us_win": 0.47391666666666665
+    "eu": "Tommy Fleetwood",
+    "p_us_win": 0.47633333333333333
    },
    {
     "us": "Sam Burns",
-    "eu": "Shane Lowry",
-    "p_us_win": 0.6053333333333333
+    "eu": "Jacob Skov Olesen",
+    "p_us_win": 0.6260833333333333
+   },
+   {
+    "us": "Jacob Bridgeman",
+    "eu": "Viktor Hovland",
+    "p_us_win": 0.5371666666666667
+   },
+   {
+    "us": "Russell Henley",
+    "eu": "Manuel Elvira",
+    "p_us_win": 0.64875
    },
    {
     "us": "Patrick Reed",
-    "eu": "Jon Rahm",
-    "p_us_win": 0.53175
+    "eu": "Tyrrell Hatton",
+    "p_us_win": 0.5075833333333334
    },
    {
     "us": "Michael Brennan",
-    "eu": "Manuel Elvira",
-    "p_us_win": 0.6190833333333333
+    "eu": "Joe Dean",
+    "p_us_win": 0.68925
    },
    {
-    "us": "Ben James",
-    "eu": "Rory McIlroy",
-    "p_us_win": 0.492
+    "us": "Wyndham Clark",
+    "eu": "Shane Lowry",
+    "p_us_win": 0.5673333333333334
    }
   ],
   "eu_board": [
    {
     "us": "Scottie Scheffler",
     "eu": "Joe Dean",
-    "p_us_win": 0.86275
+    "p_us_win": 0.8593333333333333
    },
    {
     "us": "J.J. Spaun",
-    "eu": "Tyrrell Hatton",
-    "p_us_win": 0.5634166666666667
-   },
-   {
-    "us": "Cameron Young",
-    "eu": "Viktor Hovland",
-    "p_us_win": 0.577
+    "eu": "Matt Fitzpatrick",
+    "p_us_win": 0.5221666666666667
    },
    {
     "us": "Xander Schauffele",
-    "eu": "Tommy Fleetwood",
-    "p_us_win": 0.4865833333333333
+    "eu": "Viktor Hovland",
+    "p_us_win": 0.5584166666666667
    },
    {
     "us": "Collin Morikawa",
+    "eu": "Jacob Skov Olesen",
+    "p_us_win": 0.6760833333333334
+   },
+   {
+    "us": "Cameron Young",
     "eu": "Manuel Elvira",
-    "p_us_win": 0.71025
+    "p_us_win": 0.6519166666666667
    },
    {
     "us": "Chris Gotterup",
-    "eu": "Shane Lowry",
-    "p_us_win": 0.5825
+    "eu": "Rory McIlroy",
+    "p_us_win": 0.44258333333333333
    },
    {
-    "us": "Russell Henley",
+    "us": "Sam Burns",
     "eu": "Jon Rahm",
-    "p_us_win": 0.5109166666666667
+    "p_us_win": 0.5375833333333333
    },
    {
     "us": "Jacob Bridgeman",
     "eu": "Ludvig \u00c5berg",
-    "p_us_win": 0.4663333333333333
+    "p_us_win": 0.4673333333333333
    },
    {
-    "us": "Sam Burns",
-    "eu": "Jacob Skov Olesen",
-    "p_us_win": 0.5996666666666667
+    "us": "Russell Henley",
+    "eu": "Justin Rose",
+    "p_us_win": 0.5659166666666666
    },
    {
     "us": "Patrick Reed",
-    "eu": "Rory McIlroy",
-    "p_us_win": 0.45466666666666666
+    "eu": "Shane Lowry",
+    "p_us_win": 0.5808333333333333
    },
    {
     "us": "Michael Brennan",
-    "eu": "Matt Fitzpatrick",
-    "p_us_win": 0.44575
+    "eu": "Tyrrell Hatton",
+    "p_us_win": 0.45116666666666666
    },
    {
-    "us": "Ben James",
-    "eu": "Justin Rose",
-    "p_us_win": 0.60675
+    "us": "Wyndham Clark",
+    "eu": "Tommy Fleetwood",
+    "p_us_win": 0.44125
    }
   ],
-  "us_board_expected_us_pts": 7.070833333333333,
-  "eu_board_expected_us_pts": 6.866583333333334,
+  "us_board_expected_us_pts": 6.9525,
+  "eu_board_expected_us_pts": 6.754583333333333,
   "best_worst": [
    {
     "us": "Scottie Scheffler",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.86275
+     "p_us_win": 0.8593333333333333
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.64975
+     "p_us_win": 0.6538333333333334
     }
    },
    {
     "us": "J.J. Spaun",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7753333333333333
+     "p_us_win": 0.7710833333333333
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.5064166666666666
-    }
-   },
-   {
-    "us": "Cameron Young",
-    "best": {
-     "vs": "Joe Dean",
-     "p_us_win": 0.7409166666666667
-    },
-    "worst": {
-     "vs": "Rory McIlroy",
-     "p_us_win": 0.4781666666666667
+     "p_us_win": 0.49966666666666665
     }
    },
    {
     "us": "Xander Schauffele",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7304166666666667
+     "p_us_win": 0.7321666666666666
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.46441666666666664
+     "p_us_win": 0.4683333333333333
     }
    },
    {
     "us": "Collin Morikawa",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7808333333333334
+     "p_us_win": 0.7820833333333334
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.5208333333333334
+     "p_us_win": 0.5298333333333334
+    }
+   },
+   {
+    "us": "Cameron Young",
+    "best": {
+     "vs": "Joe Dean",
+     "p_us_win": 0.73275
+    },
+    "worst": {
+     "vs": "Rory McIlroy",
+     "p_us_win": 0.4618333333333333
     }
    },
    {
     "us": "Chris Gotterup",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7294166666666667
+     "p_us_win": 0.7224166666666667
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.4475
-    }
-   },
-   {
-    "us": "Russell Henley",
-    "best": {
-     "vs": "Joe Dean",
-     "p_us_win": 0.7344166666666667
-    },
-    "worst": {
-     "vs": "Rory McIlroy",
-     "p_us_win": 0.45475
-    }
-   },
-   {
-    "us": "Jacob Bridgeman",
-    "best": {
-     "vs": "Joe Dean",
-     "p_us_win": 0.7019166666666666
-    },
-    "worst": {
-     "vs": "Rory McIlroy",
-     "p_us_win": 0.43066666666666664
+     "p_us_win": 0.44258333333333333
     }
    },
    {
     "us": "Sam Burns",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7281666666666666
+     "p_us_win": 0.74575
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.46141666666666664
+     "p_us_win": 0.47158333333333335
+    }
+   },
+   {
+    "us": "Jacob Bridgeman",
+    "best": {
+     "vs": "Joe Dean",
+     "p_us_win": 0.70175
+    },
+    "worst": {
+     "vs": "Rory McIlroy",
+     "p_us_win": 0.42716666666666664
+    }
+   },
+   {
+    "us": "Russell Henley",
+    "best": {
+     "vs": "Joe Dean",
+     "p_us_win": 0.71425
+    },
+    "worst": {
+     "vs": "Rory McIlroy",
+     "p_us_win": 0.4435
     }
    },
    {
     "us": "Patrick Reed",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.73025
+     "p_us_win": 0.725
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.45466666666666666
+     "p_us_win": 0.45075
     }
    },
    {
     "us": "Michael Brennan",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.6901666666666667
+     "p_us_win": 0.68925
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.41183333333333333
+     "p_us_win": 0.4061666666666667
     }
    },
    {
-    "us": "Ben James",
+    "us": "Wyndham Clark",
     "best": {
      "vs": "Joe Dean",
-     "p_us_win": 0.7519166666666667
+     "p_us_win": 0.70025
     },
     "worst": {
      "vs": "Rory McIlroy",
-     "p_us_win": 0.492
+     "p_us_win": 0.43233333333333335
     }
    },
    {
     "eu": "Rory McIlroy",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.5881666666666667
+     "p_eu_win": 0.5938333333333333
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.35024999999999995
+     "p_eu_win": 0.3461666666666666
     }
    },
    {
     "eu": "Matt Fitzpatrick",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.55425
+     "p_eu_win": 0.5581666666666667
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.3168333333333333
+     "p_eu_win": 0.3199166666666666
     }
    },
    {
     "eu": "Shane Lowry",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.4535
+     "p_eu_win": 0.45458333333333334
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.2414166666666666
+     "p_eu_win": 0.23783333333333334
     }
    },
    {
     "eu": "Joe Dean",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.3098333333333333
+     "p_eu_win": 0.31074999999999997
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.13724999999999998
+     "p_eu_win": 0.14066666666666672
     }
    },
    {
     "eu": "Jacob Skov Olesen",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.4465
+     "p_eu_win": 0.4440833333333334
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.22950000000000004
+     "p_eu_win": 0.22666666666666668
     }
    },
    {
     "eu": "Manuel Elvira",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.3809166666666667
+     "p_eu_win": 0.38441666666666663
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.19133333333333336
+     "p_eu_win": 0.18633333333333335
     }
    },
    {
     "eu": "Tommy Fleetwood",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.5620833333333333
+     "p_eu_win": 0.5705833333333333
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.3235
+     "p_eu_win": 0.3240833333333333
     }
    },
    {
     "eu": "Jon Rahm",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.5293333333333333
+     "p_eu_win": 0.5206666666666666
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.30600000000000005
+     "p_eu_win": 0.2951666666666667
     }
    },
    {
     "eu": "Ludvig \u00c5berg",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.5491666666666667
+     "p_eu_win": 0.5483333333333333
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.31933333333333336
+     "p_eu_win": 0.31699999999999995
     }
    },
    {
     "eu": "Viktor Hovland",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.47883333333333333
+     "p_eu_win": 0.49024999999999996
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.2576666666666667
+     "p_eu_win": 0.25825
     }
    },
    {
     "eu": "Tyrrell Hatton",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.5325833333333334
+     "p_eu_win": 0.5488333333333333
     },
     "worst": {
      "vs": "Scottie Scheffler",
-     "p_eu_win": 0.29808333333333337
+     "p_eu_win": 0.3115
     }
    },
    {
     "eu": "Justin Rose",
     "best": {
      "vs": "Michael Brennan",
-     "p_eu_win": 0.46158333333333335
+     "p_eu_win": 0.46399999999999997
     },
     "worst": {
      "vs": "Scottie Scheffler",
@@ -3047,58 +3046,58 @@
       "Scottie Scheffler",
       "Collin Morikawa"
      ],
-     "expected_points": 0.7363333333333333
+     "expected_points": 0.7401666666666666
     },
     {
      "players": [
       "J.J. Spaun",
-      "Ben James"
+      "Sam Burns"
      ],
-     "expected_points": 0.619
+     "expected_points": 0.6163333333333333
     },
     {
      "players": [
-      "Cameron Young",
-      "Sam Burns"
+      "Xander Schauffele",
+      "Cameron Young"
      ],
-     "expected_points": 0.597
+     "expected_points": 0.5871666666666666
     },
     {
      "players": [
       "Chris Gotterup",
       "Patrick Reed"
      ],
-     "expected_points": 0.5886666666666667
+     "expected_points": 0.5771666666666667
     }
    ],
    "foursomes": [
     {
      "players": [
       "Scottie Scheffler",
-      "Collin Morikawa"
+      "J.J. Spaun"
      ],
-     "expected_points": 0.6785
+     "expected_points": 0.6736666666666666
     },
     {
      "players": [
-      "J.J. Spaun",
-      "Xander Schauffele"
+      "Collin Morikawa",
+      "Sam Burns"
      ],
-     "expected_points": 0.5913333333333334
+     "expected_points": 0.6088333333333333
     },
     {
      "players": [
-      "Patrick Reed",
-      "Ben James"
+      "Cameron Young",
+      "Patrick Reed"
      ],
-     "expected_points": 0.5776666666666667
+     "expected_points": 0.5703333333333334
     },
     {
      "players": [
       "Chris Gotterup",
-      "Sam Burns"
+      "Russell Henley"
      ],
-     "expected_points": 0.5701666666666667
+     "expected_points": 0.5528333333333333
     }
    ]
   },
@@ -3109,89 +3108,88 @@
       "Rory McIlroy",
       "Tommy Fleetwood"
      ],
-     "expected_points": 0.5098333333333334
+     "expected_points": 0.5203333333333333
     },
     {
      "players": [
       "Matt Fitzpatrick",
       "Jon Rahm"
      ],
-     "expected_points": 0.4756666666666667
+     "expected_points": 0.4781666666666667
     },
     {
      "players": [
       "Ludvig \u00c5berg",
       "Tyrrell Hatton"
      ],
-     "expected_points": 0.448
+     "expected_points": 0.4655
     },
     {
      "players": [
       "Viktor Hovland",
       "Justin Rose"
      ],
-     "expected_points": 0.37433333333333335
+     "expected_points": 0.38233333333333336
     }
    ],
    "foursomes": [
     {
      "players": [
-      "Rory McIlroy",
-      "Matt Fitzpatrick"
+      "Matt Fitzpatrick",
+      "Tommy Fleetwood"
      ],
-     "expected_points": 0.5066666666666667
+     "expected_points": 0.5146666666666667
     },
     {
      "players": [
-      "Tommy Fleetwood",
-      "Ludvig \u00c5berg"
+      "Rory McIlroy",
+      "Tyrrell Hatton"
      ],
-     "expected_points": 0.48083333333333333
+     "expected_points": 0.5048333333333334
     },
     {
      "players": [
       "Jon Rahm",
-      "Tyrrell Hatton"
+      "Ludvig \u00c5berg"
      ],
-     "expected_points": 0.4635
+     "expected_points": 0.465
     },
     {
      "players": [
       "Viktor Hovland",
       "Justin Rose"
      ],
-     "expected_points": 0.3998333333333333
+     "expected_points": 0.41433333333333333
     }
    ]
   }
  },
  "session": {
   "n": 10000,
-  "p_usa_win": 0.5806,
-  "p_europe_win": 0.2855,
-  "p_14_14": 0.1339,
-  "p_europe_retain": 0.4194,
+  "p_usa_win": 0.547,
+  "p_europe_win": 0.3028,
+  "p_14_14": 0.1502,
+  "p_europe_retain": 0.453,
   "median_us_points": 15.0,
-  "mean_us_points": 15.0238,
+  "mean_us_points": 14.8162,
   "us_points_dist": {
    "7": 0.0012,
-   "8": 0.0049,
-   "9": 0.01,
-   "10": 0.0262,
-   "11": 0.0461,
-   "12": 0.0791,
-   "13": 0.1178,
-   "14": 0.1339,
-   "15": 0.1529,
-   "16": 0.1404,
-   "17": 0.1127,
-   "18": 0.0825,
-   "19": 0.0469,
-   "20": 0.0289,
-   "21": 0.0105,
-   "22": 0.0037,
-   "23": 0.0015,
-   "24": 0.0006
+   "8": 0.0046,
+   "9": 0.0133,
+   "10": 0.0307,
+   "11": 0.052,
+   "12": 0.0873,
+   "13": 0.1131,
+   "14": 0.1502,
+   "15": 0.1516,
+   "16": 0.1345,
+   "17": 0.1098,
+   "18": 0.0723,
+   "19": 0.0427,
+   "20": 0.0221,
+   "21": 0.0087,
+   "22": 0.0041,
+   "23": 0.0009
   }
  }
 }
